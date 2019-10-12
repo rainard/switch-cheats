@@ -1,4 +1,4 @@
-# 总共375个游戏Cheat,下面是部分对照表
+# 总共411个游戏Cheat,下面是部分对照表
 
 ### A 
 |Name|TitleID|Region
