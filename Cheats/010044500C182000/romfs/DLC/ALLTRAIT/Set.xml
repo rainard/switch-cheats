@@ -1,0 +1,978 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+	<MyLeaderSetting>					<!--配置想不要以下特性的领袖-->
+		<Row Retain="要"	Name="秦始皇"					LeaderType="LEADER_QIN"/>
+		<Row Retain="要"	Name="弗雷德里克·巴巴罗萨"		LeaderType="LEADER_BARBAROSSA"/>
+		<Row Retain="要"	Name="凯瑟琳·德·美第奇"			LeaderType="LEADER_CATHERINE_DE_MEDICI"/>
+		<Row Retain="要"	Name="克利欧佩特拉"				LeaderType="LEADER_CLEOPATRA"/>
+		<Row Retain="要"	Name="甘地"						LeaderType="LEADER_GANDHI"/>
+		<Row Retain="要"	Name="吉尔伽美什"				LeaderType="LEADER_GILGAMESH"/>
+		<Row Retain="要"	Name="戈尔戈"					LeaderType="LEADER_GORGO"/>
+		<Row Retain="要"	Name="哈拉尔德·哈德拉达"		LeaderType="LEADER_HARDRADA"/>
+		<Row Retain="要"	Name="北条时宗"					LeaderType="LEADER_HOJO"/>
+		<Row Retain="要"	Name="姆本巴·恩津加"			LeaderType="LEADER_MVEMBA"/>
+		<Row Retain="要"	Name="佩德罗二世"				LeaderType="LEADER_PEDRO"/>
+		<Row Retain="要"	Name="伯里克利"					LeaderType="LEADER_PERICLES"/>
+		<Row Retain="要"	Name="彼得"						LeaderType="LEADER_PETER_GREAT"/>
+		<Row Retain="要"	Name="菲利普二世"				LeaderType="LEADER_PHILIP_II"/>
+		<Row Retain="要"	Name="萨拉丁"					LeaderType="LEADER_SALADIN"/>
+		<Row Retain="要"	Name="托米丽司"					LeaderType="LEADER_TOMYRIS"/>
+		<Row Retain="要"	Name="图拉真"					LeaderType="LEADER_TRAJAN"/>
+		<Row Retain="要"	Name="泰迪·罗斯福"				LeaderType="LEADER_T_ROOSEVELT"/>
+		<Row Retain="要"	Name="维多利亚"					LeaderType="LEADER_VICTORIA"/>
+		<Row Retain="要"	Name="约翰·科廷"				LeaderType="LEADER_JOHN_CURTIN"/>
+		<Row Retain="要"	Name="蒙特祖玛"					LeaderType="LEADER_MONTEZUMA"/>
+		<Row Retain="要"	Name="旃陀罗笈多"				LeaderType="LEADER_CHANDRAGUPTA"/>
+		<Row Retain="要"	Name="成吉思汗"					LeaderType="LEADER_GENGHIS_KHAN"/>
+		<Row Retain="要"	Name="莱夫扎茹"					LeaderType="LEADER_LAUTARO"/>
+		<Row Retain="要"	Name="庞德梅克"					LeaderType="LEADER_POUNDMAKER"/>
+		<Row Retain="要"	Name="罗伯特一世"				LeaderType="LEADER_ROBERT_THE_BRUCE"/>
+		<Row Retain="要"	Name="善德"						LeaderType="LEADER_SEONDEOK"/>
+		<Row Retain="要"	Name="恰卡"						LeaderType="LEADER_SHAKA"/>
+		<Row Retain="要"	Name="塔玛丽"					LeaderType="LEADER_TAMAR"/>
+		<Row Retain="要"	Name="威廉明娜"					LeaderType="LEADER_WILHELMINA"/>
+		<Row Retain="要"	Name="特丽布瓦娜"				LeaderType="LEADER_GITARJA"/>
+		<Row Retain="要"	Name="阇耶跋摩七世"				LeaderType="LEADER_JAYAVARMAN"/>
+		<Row Retain="要"	Name="亚历山大"					LeaderType="LEADER_ALEXANDER"/>
+		<Row Retain="要"	Name="居鲁士"					LeaderType="LEADER_CYRUS"/>
+		<Row Retain="要"	Name="阿曼妮托尔"				LeaderType="LEADER_AMANITORE"/>
+		<Row Retain="要"	Name="雅德维加"					LeaderType="LEADER_JADWIGA"/>
+		<Row Retain="要"	Name="情景#大流士三世"			LeaderType="LEADER_DARIUS_III"/>
+		<Row Retain="要"	Name="情景#雅典"				LeaderType="LEADER_MINOR_CIV_ATHENS"/>
+		<Row Retain="要"	Name="情景#马拉坎达"			LeaderType="LEADER_MINOR_CIV_MARAKANDA"/>
+		<Row Retain="要"	Name="情景#帕塔拉"				LeaderType="LEADER_MINOR_CIV_PATALA"/>
+		<Row Retain="要"	Name="情景#昆士兰州长"			LeaderType="LEADER_QUEENSLAND"/>
+		<Row Retain="要"	Name="情景#西澳大利亚州长"		LeaderType="LEADER_WESTERN_AUSTRALIA"/>
+		<Row Retain="要"	Name="情景#维多利亚州长"		LeaderType="LEADER_SCENARIO_VICTORIA"/>
+		<Row Retain="要"	Name="情景#南澳大利亚州长"		LeaderType="LEADER_SOUTH_AUSTRALIA"/>
+		<Row Retain="要"	Name="情景#新南威尔士"			LeaderType="LEADER_MINOR_CIV_SYDNEY"/>
+		<Row Retain="要"	Name="情景#道教"				LeaderType="LEADER_CHINA"/>
+		<Row Retain="要"	Name="情景#湿婆教"				LeaderType="LEADER_CHOLA"/>
+		<Row Retain="要"	Name="情景#伊斯兰教"			LeaderType="LEADER_GHAZNAVID"/>
+		<Row Retain="要"	Name="情景#印度教"				LeaderType="LEADER_INDONESIA"/>
+		<Row Retain="要"	Name="情景#上座部佛教"			LeaderType="LEADER_KHMER"/>
+		<Row Retain="要"	Name="情景#大乘佛教"			LeaderType="LEADER_PALA"/>
+		<Row Retain="要"	Name="情景#密宗佛教"			LeaderType="LEADER_TUFAN"/>
+		<Row Retain="要"	Name="情景#大理"				LeaderType="LEADER_MINOR_CIV_DALI"/>
+		<Row Retain="要"	Name="情景#德里"				LeaderType="LEADER_MINOR_CIV_DELHI"/>
+		<Row Retain="要"	Name="情景#高昌"				LeaderType="LEADER_MINOR_CIV_GAOCHANG"/>
+		<Row Retain="要"	Name="情景#果亚"				LeaderType="LEADER_MINOR_CIV_GOA"/>
+		<Row Retain="要"	Name="情景#平安"				LeaderType="LEADER_MINOR_CIV_HEIAN"/>
+		<Row Retain="要"	Name="情景#开城"				LeaderType="LEADER_MINOR_CIV_KAESONG"/>
+		<Row Retain="要"	Name="情景#喀什"				LeaderType="LEADER_MINOR_CIV_KASHGAR"/>
+		<Row Retain="要"	Name="情景#于阗"				LeaderType="LEADER_MINOR_CIV_KHOTAN"/>
+		<Row Retain="要"	Name="情景#龟兹"				LeaderType="LEADER_MINOR_CIV_KUCHA"/>
+		<Row Retain="要"	Name="情景#南奔"				LeaderType="LEADER_MINOR_CIV_LAMPHUN"/>
+		<Row Retain="要"	Name="情景#南浡里"				LeaderType="LEADER_MINOR_CIV_LAMURI"/>
+		<Row Retain="要"	Name="情景#马拉邦"				LeaderType="LEADER_MINOR_CIV_MALABANG"/>
+		<Row Retain="要"	Name="情景#蒲甘"				LeaderType="LEADER_MINOR_CIV_PAGAN"/>
+		<Row Retain="要"	Name="情景#巨港"				LeaderType="LEADER_MINOR_CIV_PALEMBANG"/>
+		<Row Retain="要"	Name="情景#撒马尔罕"			LeaderType="LEADER_MINOR_CIV_SAMARKAND"/>
+		<Row Retain="要"	Name="情景#索姆纳特"			LeaderType="LEADER_MINOR_CIV_SOMNATH"/>
+		<Row Retain="要"	Name="情景#升龙"				LeaderType="LEADER_MINOR_CIV_THANG_LONG"/>
+		<Row Retain="要"	Name="情景#淡马锡"				LeaderType="LEADER_MINOR_CIV_TEMASEK"/>
+		<Row Retain="要"	Name="情景#汤都"				LeaderType="LEADER_MINOR_CIV_TONDO"/>
+		<Row Retain="要"	Name="情景#吐鲁番"				LeaderType="LEADER_MINOR_CIV_TURPAN"/>
+		<Row Retain="要"	Name="情景#邬阇衍那"			LeaderType="LEADER_MINOR_CIV_UJJAIN"/>
+		<Row Retain="要"	Name="情景#毘阇耶"				LeaderType="LEADER_MINOR_CIV_VIJAYA"/>
+		<Row Retain="要"	Name="情景#兴庆"				LeaderType="LEADER_MINOR_CIV_XINGQING"/>
+		<Row Retain="要"	Name="情景#中京"				LeaderType="LEADER_MINOR_CIV_ZHONGJING"/>
+		<Row Retain="要"	Name="情景#阿曼妮托尔"			LeaderType="LEADER_AMANITORE"/>
+		<Row Retain="要"	Name="情景#雅德维加"			LeaderType="LEADER_JADWIGA"/>
+		<Row Retain="要"	Name="情景#阿勒哈卡姆二世"		LeaderType="LEADER_AL_HAKAM_II"/>
+		<Row Retain="要"	Name="情景#巴兹尔二世"			LeaderType="LEADER_BASIL_II"/>
+		<Row Retain="要"	Name="情景#查理曼大帝"			LeaderType="LEADER_CHARLEMAGNE"/>
+		<Row Retain="要"	Name="情景#克努特"				LeaderType="LEADER_CNUT"/>
+		<Row Retain="要"	Name="情景#哈拉尔德·哈德拉达"	LeaderType="LEADER_HARDRADA"/>
+		<Row Retain="要"	Name="情景#奥洛夫·舍特康努格"	LeaderType="LEADER_OLOF"/>
+		<Row Retain="要"	Name="情景#阿普奥勒"			LeaderType="LEADER_MINOR_CIV_APUOLE"/>
+		<Row Retain="要"	Name="情景#阿尔勒"				LeaderType="LEADER_MINOR_CIV_ARLES"/>
+		<Row Retain="要"	Name="情景#阿尔西拉"			LeaderType="LEADER_MINOR_CIV_ASILAH"/>
+		<Row Retain="要"	Name="情景#西西里岛"			LeaderType="LEADER_MINOR_CIV_BALARM"/>
+		<Row Retain="要"	Name="情景#敦巴顿"				LeaderType="LEADER_MINOR_CIV_DUMBARTON"/>
+		<Row Retain="要"	Name="情景#日里德"				LeaderType="LEADER_MINOR_CIV_KAIROUAN"/>
+		<Row Retain="要"	Name="情景#阿斯图里亚斯"		LeaderType="LEADER_MINOR_CIV_GIJON"/>
+		<Row Retain="要"	Name="情景#纳瓦拉"				LeaderType="LEADER_MINOR_CIV_PAMPLONA"/>
+		<Row Retain="要"	Name="情景#比萨"				LeaderType="LEADER_MINOR_CIV_PISA"/>
+		<Row Retain="要"	Name="情景#保加利亚"			LeaderType="LEADER_MINOR_CIV_PRESLAV"/>
+		<Row Retain="要"	Name="情景#罗马"				LeaderType="LEADER_MINOR_CIV_ROME"/>
+		<Row Retain="要"	Name="情景#麦西亚"				LeaderType="LEADER_MINOR_CIV_TAMWORTH"/>
+		<Row Retain="要"	Name="情景#东安格利亚"			LeaderType="LEADER_MINOR_CIV_THETFORD"/>
+		<Row Retain="要"	Name="情景#特姆塔尔干"			LeaderType="LEADER_MINOR_CIV_TMUTARAKAN"/>
+		<Row Retain="要"	Name="情景#威尼斯"				LeaderType="LEADER_MINOR_CIV_VENICE"/>
+		<Row Retain="要"	Name="情景#韦塞克斯"			LeaderType="LEADER_MINOR_CIV_WINCHESTER"/>
+		<Row Retain="要"	Name="情景#沃林"				LeaderType="LEADER_MINOR_CIV_WOLIN"/>
+		<Row Retain="要"	Name="情景#诺森布里亚"			LeaderType="LEADER_MINOR_CIV_YORK"/>
+		<Row Retain="要"	Name="情景#米科拉伊"			LeaderType="LEADER_RADZIWILL"/>
+		<Row Retain="要"	Name="情景#斯坦尼斯拉夫"		LeaderType="LEADER_POTOCKI"/>
+		<Row Retain="要"	Name="情景#康斯坦蒂"			LeaderType="LEADER_OSTROGSKI"/>
+	</MyLeaderSetting>						
+
+	<MySpecialSetting>					<!--配置想不要特殊修改。除了Retain以及parameter1还有一些指定的parameter2，其他属性都不要动。-->
+		<!--MOD辅助功能开始-->
+		<Row Retain="不要"	Name="输出日志"/><!--设置在右上角问号输出日志-->
+		<Row Retain="不要"	Name="地图信息"/><!--设置在右上角菜单按钮输出地图信息-->
+		<Row Retain="不要"	Name="自动探索全地图"/><!--设置是否开全图,保留迷雾-->
+		<Row Retain="不要"	Name="取消高难度AI额外开拓者"/><!--高难度AI不会额外获得开拓者！-->
+		<Row Retain="不要"	Name="取消小道消息前缀"/><!--取消你XX的YY废话-->
+		<Row Retain="不要"	Name="所有的资源可采集"/><!--只不要可以改良，就可以采集。对所有领袖生效-->
+		<Row Retain="不要"	Name="去除奇迹位置限制"/>
+		<Row Retain="不要"	Name="众神之王"/><!--宗教特性合一，和原版功能相同，增加针对各种模式的兼容性。如果使用请关闭原版-->
+		<Row Retain="不要"	Name="自动添加万神殿" 				parameter1="BELIEF_KING_OF_THE_GODS"/><!--开了众神之王，但是怕抢不到？设置为不要，则创建游戏后自动获得指定万神殿，默认为众神之王。其他的在EXCEL里找-->
+		<Row Retain="不要"	Name="设置部分属性生效回合"			parameter1="10"/><!--为后面一些属性启动回合限制，1-N回合有效，不要则所有属性全回合生效-->
+		<Row Retain="不要"	Name="属性对敌人生效"/><!--变态至极的需求，应某个哥们需求加上的，如果设置为不要，你享有的一切将与敌人分享……-->
+		<!--自定义属性组开始-->		
+		<Row Retain="不要"	Name="增加城市房屋"					parameter1="10"/>
+		<Row Retain="不要"	Name="增加城市人口"					parameter1="5"/>
+		<Row Retain="不要"	Name="增加城市宜居"					parameter1="30"/>
+		<Row Retain="不要"	Name="增加城市忠诚"					parameter1="100"/>
+		<Row Retain="不要"	Name="增加城市地块魅力"				parameter1="30"/><!--地块改良后生效-->
+		<Row Retain="不要"	Name="增加城市地块食物"				parameter1="2"	parameter2="YIELD_FOOD"/>
+		<Row Retain="不要"	Name="增加城市地块金钱"				parameter1="2"	parameter2="YIELD_GOLD"/>
+		<Row Retain="不要"	Name="增加城市地块信仰"				parameter1="2"	parameter2="YIELD_FAITH"/>
+		<Row Retain="不要"	Name="增加城市地块生产力"			parameter1="1"	parameter2="YIELD_PRODUCTION"/>
+		<Row Retain="不要"	Name="增加城市地块科技"				parameter1="1"	parameter2="YIELD_SCIENCE"/>
+		<Row Retain="不要"	Name="增加城市地块文化"				parameter1="1"	parameter2="YIELD_CULTURE"/>
+		<Row Retain="不要"	Name="旅游业绩增加"					parameter1="1000"/><!--除100后就是倍率-->
+		<Row Retain="不要"	Name="增加贸易路线"					parameter1="10"/>
+		<Row Retain="不要"	Name="增加初始地块"					parameter1="84"/><!--受回合影响--><!--一环0，二环12，三环30，四环54，五环84-->
+		<Row Retain="不要"	Name="无视人口建造区域"				parameter1="10"/>
+		<Row Retain="要"	Name="购买地块费用衰减"				parameter1="-50"/><!--购买地块费用衰减，从0至-99，-100会导致购买地块消失无效-->
+		<Row Retain="不要"	Name="市政加速"						parameter1="100"/><!--受回合影响--><!--直接设定尤里卡效果-->
+		<Row Retain="不要"	Name="科技加速"						parameter1="100"/><!--受回合影响--><!--直接设定尤里卡效果-->
+		<Row Retain="要"	Name="增加金钱"						parameter1="5000"/><!--最大70000，超出会变成负数，如果需不要更多配合下面倍数修改。-->
+		<Row Retain="要"	Name="增加金钱倍数"					parameter1="50"/>
+		<Row Retain="要"	Name="增加信仰"						parameter1="5000"/><!--最大70000-->
+		<Row Retain="不要"	Name="每回合获得大量生产力"			parameter1="200"/><!--每回合所有城市获得N生产力-->
+		<Row Retain="不要"	Name="全资源获取"					parameter1="10"	parameter2="ALL"/>
+		<!--设置为"ALL"则每获得一座城市，所有资源会获得所有N个。包括奢侈品、加成、战略。如果只想不要指定的资源，可以把ALL修改为对应的ResourceType，可填写多个，英文逗号连接。
+		例子：parameter2="RESOURCE_COSMETICS,RESOURCE_SHIPWRECK"，ResourceType查看名称对照-->
+		<Row Retain="不要"	Name="增加使者"						parameter1="100"/>
+		<Row Retain="不要"	Name="加快同盟点获取"				parameter1="40"/>
+		<Row Retain="不要"	Name="获得总督头衔"					parameter1="10"/>
+		<Row Retain="不要"	Name="可获得第1个额外的通配槽位"/><!--部分情景模式中不建议开启-->
+		<Row Retain="不要"	Name="可获得第2个额外的通配槽位"/>
+		<Row Retain="不要"	Name="可获得第3个额外的通配槽位"/>
+		<Row Retain="不要"	Name="可获得第1个额外的经济槽位"/><!--部分情景模式中不建议开启-->
+		<Row Retain="不要"	Name="可获得第2个额外的经济槽位"/>
+		<Row Retain="不要"	Name="可获得第3个额外的经济槽位"/>
+		<Row Retain="不要"	Name="可获得第1个额外的军事槽位"/><!--部分情景模式中不建议开启-->
+		<Row Retain="不要"	Name="可获得第2个额外的军事槽位"/>
+		<Row Retain="不要"	Name="可获得第3个额外的军事槽位"/>
+		<Row Retain="不要"	Name="建造次数增加"					parameter1="90"/><!--所有可建筑单位增加次数。包括情景中的特殊单位-->
+		<Row Retain="不要"	Name="工人可加速奇迹"				parameter1="100"/><!--工人可以加速奇迹，设为100则直接获得-->
+		<Row Retain="不要"	Name="工人可加速区域"				parameter1="100"/><!--工人可以加速建筑，设为100则直接获得-->
+		<Row Retain="不要"	Name="全单位每回合升1级"/><!--除了使徒之外，所有可升级单位每回合提升1级，如果没选择晋升则只保留一次-->
+		<Row Retain="不要"	Name="传教次数增加"					parameter1="5"/>
+		<Row Retain="不要"	Name="使徒升级"						parameter1="9"/><!--使徒可以获得N次晋升机会-->
+		<Row Retain="不要"	Name="使徒升级所有技能可选"/>
+		<Row Retain="不要"	Name="间谍升级所有技能可选"/>
+		<Row Retain="不要"	Name="间谍获得全晋升"/><!--直接满级,有这个上面的都不用了-->
+		<Row Retain="不要"	Name="使徒获得全晋升"/><!--直接满级,有这个上面的都不用了-->
+		<Row Retain="不要"	Name="调整间谍进攻等级"				parameter1="2"/>
+		<Row Retain="不要"	Name="调整间谍防守等级"				parameter1="1"/>
+		<Row Retain="不要"	Name="间谍部署无需时间"/><!--额外补充，配合间谍本身技能或者其他类似效果可以实现1回合到位-->
+		<Row Retain="不要"	Name="间谍进攻1回合"/><!--有损属性，会导致间谍部分属性效果归0。如抽取资金，不确定会不会影响降低忠诚-->
+		<Row Retain="不要"	Name="移动力增加"					parameter1="90"/>
+		<Row Retain="不要"	Name="攻击距离增加"					parameter1="3"/><!--针对远程-->
+		<Row Retain="不要"	Name="攻击以后可再攻击"				parameter1="99"/>
+		<Row Retain="不要"	Name="视野增加"						parameter1="6"/>
+		<Row Retain="不要"	Name="战斗力增加"					parameter1="30"/>
+		<Row Retain="不要"	Name="直接攻击支援单位"/>
+		<Row Retain="不要"	Name="掠夺只消耗1个移动力"/>
+		<Row Retain="不要"	Name="占领城市后强制信仰本国宗教"/>
+		<Row Retain="不要"	Name="中立地区恢复"/>
+		<Row Retain="不要"	Name="敌对地区恢复"/>
+		<Row Retain="不要"	Name="击败对手后恢复"				parameter1="20"/>
+		<Row Retain="不要"	Name="编队单位获得相同移动力"/>
+		<Row Retain="不要"	Name="反隐形"/>
+		<Row Retain="不要"	Name="攻击后仍可移动"/>
+		<Row Retain="不要"	Name="忽略地形移动力影响"/>
+		<Row Retain="不要"	Name="忽略河流移动力影响"/>
+		<Row Retain="不要"	Name="忽略登船移动力影响"/>
+		<Row Retain="不要"	Name="可攀登悬崖城墙"/>
+		<Row Retain="不要"	Name="在移动或战斗后，依然能治愈"/>
+		<Row Retain="不要"	Name="没被地形阻碍的视野范围"/>
+		<Row Retain="不要"	Name="不受敌人控制区影响"/>
+		<Row Retain="不要"	Name="学会区域控制"/>
+		<Row Retain="不要"	Name="可以进入外国领土"/>
+		<Row Retain="不要"	Name="陆运路线无法被掠夺"/>
+		<Row Retain="不要"	Name="海运路线无法被掠夺"/>
+		<!--自定义属性组结束-->		
+
+		<!--调整战狂设置。和原版功能相同。补充了资料片新增的一些东西，对所有领袖生效，覆盖原版效果-->
+		<!--修改parameter1设置每个时代的基础战狂惩罚点数-->
+		<Row Retain="不要"	Name="远古时代(默认0点)"											parameter1="0"		parameter2="时代战狂"	parameter3="ERA_ANCIENT"/>
+		<Row Retain="不要"	Name="古典时期(默认6点)"											parameter1="5"		parameter2="时代战狂"	parameter3="ERA_CLASSICAL"/>
+		<Row Retain="不要"	Name="中世纪(默认12点)"												parameter1="12"		parameter2="时代战狂"	parameter3="ERA_MEDIEVAL"/>
+		<Row Retain="不要"	Name="文艺复兴时期(默认18点)"										parameter1="18"		parameter2="时代战狂"	parameter3="ERA_RENAISSANCE"/>
+		<Row Retain="不要"	Name="工业时代(默认24点)"											parameter1="24"		parameter2="时代战狂"	parameter3="ERA_INDUSTRIAL"/>
+		<Row Retain="不要"	Name="现代(默认24点)"												parameter1="24"		parameter2="时代战狂"	parameter3="ERA_MODERN"/>
+		<Row Retain="不要"	Name="原子能时期(默认24点)"											parameter1="24"		parameter2="时代战狂"	parameter3="ERA_ATOMIC"/>
+		<Row Retain="不要"	Name="信息时代(默认24点)"											parameter1="24"		parameter2="时代战狂"	parameter3="ERA_INFORMATION"/>
+		<!--修改parameter1设置每个时代的基础战狂惩罚点数以设置战争借口对战狂点数的百分比修正战争借口会以百分比改变上面的战狂点数。对所有领袖生效-->
+		<Row Retain="不要"	Name="宣布正式战争(默认100%)"										parameter1="100"	parameter2="战狂修正"	parameter3="DIPLOACTION_DECLARE_FORMAL_WAR"/>
+		<Row Retain="不要"	Name="战争同盟(默认100%)"											parameter1="100"	parameter2="战狂修正"	parameter3="DIPLOACTION_JOINT_WAR"/>
+		<Row Retain="不要"	Name="宣布突袭战争(默认150%)"										parameter1="150"	parameter2="战狂修正"	parameter3="DIPLOACTION_DECLARE_SURPRISE_WAR"/>
+		<Row Retain="不要"	Name="宣布圣战(默认50%)"											parameter1="50"		parameter2="战狂修正"	parameter3="DIPLOACTION_DECLARE_HOLY_WAR"/>
+		<Row Retain="不要"	Name="宣布解放战争(默认0%)"											parameter1="0"		parameter2="战狂修正"	parameter3="DIPLOACTION_DECLARE_LIBERATION_WAR"/>
+		<Row Retain="不要"	Name="宣布领土夺回战争(默认0%)"										parameter1="0"		parameter2="战狂修正"	parameter3="DIPLOACTION_DECLARE_RECONQUEST_WAR"/>
+		<Row Retain="不要"	Name="宣布保卫城邦战争(默认0%)"										parameter1="0"		parameter2="战狂修正"	parameter3="DIPLOACTION_DECLARE_PROTECTORATE_WAR"/>
+		<Row Retain="不要"	Name="宣布殖民战争(默认50%)"										parameter1="0"		parameter2="战狂修正"	parameter3="DIPLOACTION_DECLARE_COLONIAL_WAR"/>
+		<Row Retain="不要"	Name="宣布领土扩张战争(默认75%)"									parameter1="75"		parameter2="战狂修正"	parameter3="DIPLOACTION_DECLARE_TERRITORIAL_WAR"/>
+		<Row Retain="不要"	Name="宣布黄金时代战争(默认25%)"									parameter1="25"		parameter2="战狂修正"	parameter3="DIPLOACTION_DECLARE_GOLDEN_AGE_WAR"/>
+		<Row Retain="不要"	Name="宣布报复战争(默认50%)"										parameter1="50"		parameter2="战狂修正"	parameter3="DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION"/>
+		<Row Retain="不要"	Name="宣布意识形态战争(默认50%)"									parameter1="50"		parameter2="战狂修正"	parameter3="DIPLOACTION_DECLARE_IDEOLOGICAL_WAR"/>
+		<!--修改parameter1数值以设置战狂惩罚的全局参数，对所有领袖生效-->	
+		<Row Retain="不要"	Name="占领城市产生的战狂点数的百分比修正(默认50%)"					parameter1="0"		parameter2="战狂全局"	parameter3="WARMONGER_CITY_PERCENT_OF_DOW"/>
+		<Row Retain="不要"	Name="占领最后一个主不要城市产生的战狂点数的百分比修正(默认200%)"	parameter1="0"		parameter2="战狂全局"	parameter3="WARMONGER_FINAL_MAJOR_CITY_MULTIPLIER"/>
+		<Row Retain="不要"	Name="占领最后一个次不要城市产生的战狂点数的百分比修正(默认100%)"	parameter1="0"		parameter2="战狂全局"	parameter3="WARMONGER_FINAL_MINOR_CITY_MULTIPLIER"/>
+		<Row Retain="不要"	Name="战狂点数在外交上的衰减率(默认50%)"							parameter1="50"		parameter2="战狂全局"	parameter3="DIPLOMACY_WARMONGER_POINT_PERCENT_DECAY"/>
+		<Row Retain="不要"	Name="如果在战争中减少的战狂点数(默认40%)"							parameter1="40"		parameter2="战狂全局"	parameter3="WARMONGER_REDUCTION_IF_AT_WAR"/>
+		<Row Retain="不要"	Name="如果谴责减少的战狂点数(默认20%)"								parameter1="20"		parameter2="战狂全局"	parameter3="WARMONGER_REDUCTION_IF_DENOUNCED"/>
+		<Row Retain="不要"	Name="解放城市减少的战狂点数(默认32点)"							parameter1="32"		parameter2="战狂全局"	parameter3="WARMONGER_LIBERATE_POINTS"/>
+		<Row Retain="不要"	Name="将城市夷为平地产生的战狂点数的百分比修正(默认200%)"			parameter1="0"		parameter2="战狂全局"	parameter3="WARMONGER_RAZE_PENALTY_PERCENT"/>
+		<Row Retain="不要"	Name="选择归还城市产生的战狂点数的百分比修正(默认100%)"			parameter1="-100"	parameter2="战狂全局"	parameter3="WARMONGER_STOP_OCCUPYING_REFUND_PERCENT"/>
+
+		<!--部分设置，对所有领袖生效-->
+		<Row Retain="不要"	Name="脱离黑暗时代的点数（默认12）"		parameter1="12"		parameter2="设置选项"	parameter3="DARK_AGE_SCORE_BASE_THRESHOLD"/>
+		<Row Retain="不要"	Name="进入黄金时代的点数（默认24）"		parameter1="24"		parameter2="设置选项"	parameter3="GOLDEN_AGE_SCORE_BASE_THRESHOLD"/>
+		<Row Retain="不要"	Name="任何城市都可以夷为平地"			parameter1="1"		parameter2="设置选项"	parameter3="COMBAT_RAZE_ANY_CITY"/>
+		<Row Retain="不要"	Name="间谍活动的最高级别"				parameter1="20"		parameter2="设置选项"	parameter3="ESPIONAGE_MAX_LEVEL"/>
+		<Row Retain="不要"	Name="野蛮人的等级"						parameter1="6"		parameter2="设置选项"	parameter3="EXPERIENCE_MAX_BARB_LEVEL"/>
+		<Row Retain="不要"	Name="野蛮人的大胆攻击"					parameter1="100"	parameter2="设置选项"	parameter3="BARBARIAN_BOLDNESS_PER_CAMP_ATTACK"/>
+		<Row Retain="不要"	Name="野蛮人减少的攻击欲望"				parameter1="30"		parameter2="设置选项"	parameter3="BARBARIAN_BOLDNESS_PER_SCOUT_LOST"/>
+		<Row Retain="不要"	Name="野蛮人的基础攻击欲望"				parameter1="50"		parameter2="设置选项"	parameter3="BARBARIAN_BOLDNESS_PER_TURN"/>
+		<Row Retain="不要"	Name="野蛮人营地海岸出现几率"			parameter1="999"	parameter2="设置选项"	parameter3="BARBARIAN_CAMP_COASTAL_SPAWN_ROLL"/>
+		<Row Retain="不要"	Name="野蛮人营地数量"					parameter1="50"		parameter2="设置选项"	parameter3="BARBARIAN_CAMP_MAX_PER_MAJOR_CIV"/>
+		<Row Retain="不要"	Name="野蛮人营地之间的距离"				parameter1="0"		parameter2="设置选项"	parameter3="BARBARIAN_CAMP_MINIMUM_DISTANCE_ANOTHER_CAMP"/>
+		<Row Retain="不要"	Name="野蛮人营地距离城市基础距离"		parameter1="0"		parameter2="设置选项"	parameter3="BARBARIAN_CAMP_MINIMUM_DISTANCE_CITY"/>
+		<Row Retain="不要"	Name="野蛮人营地出现几率"				parameter1="999"	parameter2="设置选项"	parameter3="BARBARIAN_CAMP_ODDS_OF_NEW_CAMP_SPAWNING"/>
+		<Row Retain="不要"	Name="野蛮人每次刷兵出现数量"			parameter1="10"		parameter2="设置选项"	parameter3="BARBARIAN_NUM_RANDOM_UNIT_CHOICES"/>
+		<Row Retain="不要"	Name="野蛮人刷出高科技兵种几率"			parameter1="100"	parameter2="设置选项"	parameter3="BARBARIAN_RELEASE_VARIATION"/>
+		<Row Retain="不要"	Name="野蛮人是当前时代科技的百分比"	parameter1="200"	parameter2="设置选项"	parameter3="BARBARIAN_TECH_PERCENT"/>
+
+		<!--设置伟人隐退次数，太多了，想不要什么，在名称对照中找到自己添加。对所有领袖生效-->
+		<Row Retain="不要"	Name="圣遗物"							parameter1="30"		parameter2="伟人隐退"	parameter3="GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC"/>
+		<Row Retain="不要"	Name="扩张土地"							parameter1="999"	parameter2="伟人隐退"	parameter3="GREAT_PERSON_INDIVIDUAL_MARCUS_LICINIUS_CRASSUS"/>
+		<Row Retain="不要"	Name="银行开巨作槽"						parameter1="2"		parameter2="伟人隐退"	parameter3="GREAT_PERSON_INDIVIDUAL_GIOVANNI_DE_MEDICI"/>
+
+		<!--设置槽位，对所有领袖生效-->
+		<Row Retain="不要"	Name="紫禁城增加槽位"					parameter1="3"/>
+		<Row Retain="不要"	Name="通用调整槽位"						parameter1="3"/><!--使所有巨作槽位+N,后面的单项设置会覆盖本项设置-->
+		<Row Retain="不要"	Name="紫禁城"							parameter1="10"		parameter2="调整槽位"	parameter3="BUILDING_FORBIDDEN_CITY"				parameter4="GREATWORKSLOT_PALACE"/>
+		<Row Retain="不要"	Name="宫殿通用"							parameter1="10"		parameter2="调整槽位"	parameter3="BUILDING_PALACE"						parameter4="GREATWORKSLOT_PALACE"/>
+		<Row Retain="不要"	Name="寺庙遗物"							parameter1="3"		parameter2="调整槽位"	parameter3="BUILDING_TEMPLE"						parameter4="GREATWORKSLOT_RELIC"/>
+		<Row Retain="不要"	Name="木板教堂遗物"						parameter1="1"		parameter2="调整槽位"	parameter3="BUILDING_STAVE_CHURCH"					parameter4="GREATWORKSLOT_RELIC"/>
+		<Row Retain="不要"	Name="古罗马剧场著作"					parameter1="2"		parameter2="调整槽位"	parameter3="BUILDING_AMPHITHEATER"					parameter4="GREATWORKSLOT_WRITING"/>
+		<Row Retain="不要"	Name="艺术博物馆艺术"					parameter1="6"		parameter2="调整槽位"	parameter3="BUILDING_MUSEUM_ART"					parameter4="GREATWORKSLOT_ART"/>
+		<Row Retain="不要"	Name="考古博物馆文物"					parameter1="3"		parameter2="调整槽位"	parameter3="BUILDING_MUSEUM_ARTIFACT"				parameter4="GREATWORKSLOT_ARTIFACT"/>
+		<Row Retain="不要"	Name="广播中心音乐"						parameter1="4"		parameter2="调整槽位"	parameter3="BUILDING_BROADCAST_CENTER"				parameter4="GREATWORKSLOT_MUSIC"/>
+		<Row Retain="不要"	Name="电影制片厂音乐"					parameter1="1"		parameter2="调整槽位"	parameter3="BUILDING_FILM_STUDIO"					parameter4="GREATWORKSLOT_MUSIC"/>
+		<Row Retain="不要"	Name="大教堂宗教艺术"					parameter1="1"		parameter2="调整槽位"	parameter3="BUILDING_CATHEDRAL"						parameter4="GREATWORKSLOT_CATHEDRAL"/>
+		<Row Retain="不要"	Name="大图书馆著作"						parameter1="8"		parameter2="调整槽位"	parameter3="BUILDING_GREAT_LIBRARY"					parameter4="GREATWORKSLOT_WRITING"/>
+		<Row Retain="不要"	Name="圣米歇尔山遗物"					parameter1="2"		parameter2="调整槽位"	parameter3="BUILDING_MONT_ST_MICHEL"				parameter4="GREATWORKSLOT_RELIC"/>
+		<Row Retain="不要"	Name="莫斯科大剧院著作"					parameter1="4"		parameter2="调整槽位"	parameter3="BUILDING_BOLSHOI_THEATRE"				parameter4="GREATWORKSLOT_WRITING"/>
+		<Row Retain="不要"	Name="莫斯科大剧院音乐"					parameter1="4"		parameter2="调整槽位"	parameter3="BUILDING_BOLSHOI_THEATRE"				parameter4="GREATWORKSLOT_MUSIC"/>
+		<Row Retain="不要"	Name="牛津大学著作"						parameter1="8"		parameter2="调整槽位"	parameter3="BUILDING_OXFORD_UNIVERSITY"				parameter4="GREATWORKSLOT_WRITING"/>
+		<Row Retain="不要"	Name="艾尔米塔什博物馆艺术"				parameter1="10"		parameter2="调整槽位"	parameter3="BUILDING_HERMITAGE"						parameter4="GREATWORKSLOT_ART"/>
+		<Row Retain="不要"	Name="百老汇著作"						parameter1="4"		parameter2="调整槽位"	parameter3="BUILDING_BROADWAY"						parameter4="GREATWORKSLOT_WRITING"/>
+		<Row Retain="不要"	Name="百老汇音乐"						parameter1="4"		parameter2="调整槽位"	parameter3="BUILDING_BROADWAY"						parameter4="GREATWORKSLOT_MUSIC"/>
+		<Row Retain="不要"	Name="悉尼歌剧院音乐"					parameter1="3"		parameter2="调整槽位"	parameter3="BUILDING_SYDNEY_OPERA_HOUSE"			parameter4="GREATWORKSLOT_MUSIC"/>
+		<Row Retain="不要"	Name="圣瓦西里主教座堂遗物"				parameter1="3"		parameter2="调整槽位"	parameter3="BUILDING_ST_BASILS_CATHEDRAL"			parameter4="GREATWORKSLOT_RELIC"/>
+		<Row Retain="不要"	Name="国家历史博物馆通用"				parameter1="4"		parameter2="调整槽位"	parameter3="BUILDING_GOV_CULTURE"					parameter4="GREATWORKSLOT_PALACE"/>
+		<Row Retain="不要"	Name="高棉庙堂遗物"						parameter1="2"		parameter2="调整槽位"	parameter3="BUILDING_PRASAT"						parameter4="GREATWORKSLOT_RELIC"/>
+		<Row Retain="不要"	Name="宝塔遗物"							parameter1="1"		parameter2="调整槽位"	parameter3="BUILDING_PAGODA"						parameter4="GREATWORKSLOT_RELIC"/>
+		<Row Retain="不要"	Name="佛寺遗物"							parameter1="1"		parameter2="调整槽位"	parameter3="BUILDING_WAT"							parameter4="GREATWORKSLOT_RELIC"/>
+		<Row Retain="不要"	Name="清真寺遗物"						parameter1="1"		parameter2="调整槽位"	parameter3="BUILDING_MOSQUE"						parameter4="GREATWORKSLOT_RELIC"/>
+		<Row Retain="不要"	Name="窣堵波遗物"						parameter1="1"		parameter2="调整槽位"	parameter3="BUILDING_STUPA"							parameter4="GREATWORKSLOT_RELIC"/>
+		<Row Retain="不要"	Name="阿帕达纳宫通用"					parameter1="6"		parameter2="调整槽位"	parameter3="BUILDING_APADANA"						parameter4="GREATWORKSLOT_PALACE"/>
+	</MySpecialSetting>	
+
+	<AAMyTraitSetting>					<!--配置想不要的特性，无兵种建筑改良-->
+		<Row Retain="不要"	Name="开国元勋"						TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"/>
+		<Row Retain="不要"	Name="最后的预言家"					TraitType="TRAIT_CIVILIZATION_LAST_PROPHET"/>
+		<Row Retain="不要"	Name="亚马逊"						TraitType="TRAIT_CIVILIZATION_AMAZON"/>
+		<Row Retain="不要"	Name="朝代更替"						TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE"/>
+		<Row Retain="不要"	Name="古尼罗河"						TraitType="TRAIT_CIVILIZATION_ITERU"/>
+		<Row Retain="不要"	Name="大英博物馆"					TraitType="TRAIT_CIVILIZATION_DOUBLE_ARCHAEOLOGY_SLOTS"/>
+		<Row Retain="不要"	Name="游学"							TraitType="TRAIT_CIVILIZATION_WONDER_TOURISM"/>
+		<Row Retain="不要"	Name="自由帝国城市"					TraitType="TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES"/>
+		<Row Retain="不要"	Name="柏拉图的理想国"				TraitType="TRAIT_CIVILIZATION_PLATOS_REPUBLIC"/>
+		<Row Retain="不要"	Name="达摩"							TraitType="TRAIT_CIVILIZATION_DHARMA"/>
+		<Row Retain="不要"	Name="明治维新"						TraitType="TRAIT_CIVILIZATION_ADJACENT_DISTRICTS"/>
+		<Row Retain="不要"	Name="精神实体"						TraitType="TRAIT_CIVILIZATION_NKISI"/>
+		<Row Retain="不要"	Name="龙骨船"						TraitType="TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION"/>
+		<Row Retain="不要"	Name="条条大路通罗马"				TraitType="TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME"/>
+		<Row Retain="不要"	Name="俄罗斯母亲"					TraitType="TRAIT_CIVILIZATION_MOTHER_RUSSIA"/>
+		<Row Retain="不要"	Name="大草原上的人"					TraitType="TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY"/>
+		<Row Retain="不要"	Name="宝藏舰队"						TraitType="TRAIT_CIVILIZATION_TREASURE_FLEET"/>
+		<Row Retain="不要"	Name="史诗任务"						TraitType="TRAIT_CIVILIZATION_FIRST_CIVILIZATION"/>
+		<Row Retain="不要"	Name="南方大陆"						TraitType="TRAIT_CIVILIZATION_LAND_DOWN_UNDER"/><!--DLC：澳大利亚文明礼包-->
+		<Row Retain="不要"	Name="五个太阳的传说"				TraitType="TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS"/><!--DLC：阿兹特克文明礼包-->
+		<Row Retain="不要"	Name="林地克里人"					TraitType="TRAIT_CIVILIZATION_CREE_TRADE_GAIN_TILES"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="三国鼎立"						TraitType="TRAIT_CIVILIZATION_THREE_KINGDOMS"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="团结就是力量"					TraitType="TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="托奇"							TraitType="TRAIT_CIVILIZATION_MAPUCHE_TOQUI"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="驿站"							TraitType="TRAIT_CIVILIZATION_MONGOLIAN_ORTOO"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="大河地带"						TraitType="TRAIT_CIVILIZATION_GROTE_RIVIEREN"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="苏格兰启蒙运动"				TraitType="TRAIT_CIVILIZATION_SCOTTISH_ENLIGHTENMENT"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="部落礼赞"						TraitType="TRAIT_CIVILIZATION_ZULU_ISIBONGO"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="伟大千岛之国"					TraitType="TRAIT_CIVILIZATION_INDONESIA_NUSANTARA"/><!--DLC：高棉与印尼文明包-->
+		<Row Retain="不要"	Name="大人工湖"						TraitType="TRAIT_CIVILIZATION_KHMER_BARAYS"/><!--DLC：高棉与印尼文明包-->
+		<Row Retain="不要"	Name="希腊文化融合"					TraitType="TRAIT_CIVILIZATION_HELLENISTIC_FUSION"/><!--DLC：波斯与马其顿文明包-->
+		<Row Retain="不要"	Name="行省总督"						TraitType="TRAIT_CIVILIZATION_SATRAPIES"/><!--DLC：波斯与马其顿文明包-->
+		<Row Retain="不要"	Name="塔赛提"						TraitType="TRAIT_CIVILIZATION_TA_SETI"/><!--情景：尼罗河的赠礼-->
+		<Row Retain="不要"	Name="贵族民主制"					TraitType="TRAIT_CIVILIZATION_GOLDEN_LIBERTY"/><!--情景：雅德维加的遗产-->
+		<Row Retain="不要"	Name="塞莫皮莱"						TraitType="CULTURE_KILLS_TRAIT"/>
+		<Row Retain="不要"	Name="恩奇都奇遇"					TraitType="TRAIT_LEADER_ADVENTURES_ENKIDU"/>
+		<Row Retain="不要"	Name="地中海新娘"					TraitType="TRAIT_LEADER_MEDITERRANEAN"/>
+		<Row Retain="不要"	Name="神风"							TraitType="TRAIT_LEADER_DIVINE_WIND"/>
+		<Row Retain="不要"	Name="艾思科里亚"					TraitType="TRAIT_LEADER_EL_ESCORIAL"/>
+		<Row Retain="不要"	Name="送给国王的礼物"				TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>
+		<Row Retain="不要"	Name="大使馆"						TraitType="TRAIT_LEADER_GRAND_EMBASSY"/>
+		<Row Retain="不要"	Name="神圣罗马皇帝"					TraitType="TRAIT_LEADER_HOLY_ROMAN_EMPEROR"/>
+		<Row Retain="不要"	Name="英国强权下的和平"				TraitType="TRAIT_LEADER_PAX_BRITANNICA"/>
+		<Row Retain="不要"	Name="正义的信仰"					TraitType="TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH"/>
+		<Row Retain="不要"	Name="宗教转换"						TraitType="TRAIT_LEADER_RELIGIOUS_CONVERT"/>
+		<Row Retain="不要"	Name="罗斯福推论"					TraitType="TRAIT_LEADER_ROOSEVELT_COROLLARY"/>
+		<Row Retain="不要"	Name="非暴力不合作"					TraitType="TRAIT_LEADER_SATYAGRAHA"/>
+		<Row Retain="不要"	Name="北方惊雷"						TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS"/>
+		<Row Retain="不要"	Name="秦始皇"						TraitType="FIRST_EMPEROR_TRAIT"/>
+		<Row Retain="不要"	Name="凯瑟琳的亲卫队"				TraitType="FLYING_SQUADRON_TRAIT"/>
+		<Row Retain="不要"	Name="图拉真圆柱"					TraitType="TRAJANS_COLUMN_TRAIT"/>
+		<Row Retain="不要"	Name="居鲁士终结者"					TraitType="TRAIT_LEADER_KILLER_OF_CYRUS"/>
+		<Row Retain="不要"	Name="宽宏大量"						TraitType="TRAIT_LEADER_MAGNANIMOUS"/>
+		<Row Retain="不要"	Name="被荣耀包围"					TraitType="TRAIT_LEADER_SURROUNDED_BY_GLORY"/>
+		<Row Retain="不要"	Name="文明的大本营"					TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION"/><!--DLC：澳大利亚文明礼包-->
+		<Row Retain="不要"	Name="伊布托"						TraitType="TRAIT_LEADER_AMABUTHO"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="政事论"						TraitType="TRAIT_LEADER_ARTHASHASTRA"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="班诺克本"						TraitType="TRAIT_LEADER_BANNOCKBURN"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="花郎"							TraitType="TRAIT_LEADER_HWARANG"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="世界、王国和信仰的荣光"		TraitType="TRAIT_LEADER_RELIGION_CITY_STATES"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="有利条件"						TraitType="TRAIT_LEADER_ALLIANCE_AND_TRADE"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="橙色电台"						TraitType="TRAIT_RADIO_ORANJE"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="迅捷之鹰"						TraitType="TRAIT_LEADER_LAUTARO_ABILITY"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="蒙古部落"						TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="三界的崇高女神"				TraitType="TRAIT_LEADER_EXALTED_GODDESS"/><!--DLC：高棉与印尼文明包-->
+		<Row Retain="不要"	Name="国王的修道院"					TraitType="TRAIT_LEADER_MONASTERIES_KING"/><!--DLC：高棉与印尼文明包-->
+		<Row Retain="不要"	Name="直到世界尽头"					TraitType="TRAIT_LEADER_TO_WORLDS_END"/><!--DLC：波斯与马其顿文明包-->
+		<Row Retain="不要"	Name="巴比伦的陨落"					TraitType="TRAIT_LEADER_FALL_BABYLON"/><!--DLC：波斯与马其顿文明包-->
+		<Row Retain="不要"	Name="麦罗埃的甘达刻"				TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE"/><!--情景：尼罗河的赠礼-->
+		<Row Retain="不要"	Name="立陶宛联邦"					TraitType="TRAIT_LEADER_LITHUANIAN_UNION"/><!--情景：雅德维加的遗产-->
+		<Row Retain="不要"	Name="科技城邦"						TraitType="MINOR_CIV_SCIENTIFIC_TRAIT"/>
+		<Row Retain="不要"	Name="宗教城邦"						TraitType="MINOR_CIV_RELIGIOUS_TRAIT"/>
+		<Row Retain="不要"	Name="贸易城邦"						TraitType="MINOR_CIV_TRADE_TRAIT"/>
+		<Row Retain="不要"	Name="文化城邦"						TraitType="MINOR_CIV_CULTURAL_TRAIT"/>
+		<Row Retain="不要"	Name="军事城邦"						TraitType="MINOR_CIV_MILITARISTIC_TRAIT"/>
+		<Row Retain="不要"	Name="工业城邦"						TraitType="MINOR_CIV_INDUSTRIAL_TRAIT"/>
+		<Row Retain="不要"	Name="阿姆斯特丹宗主国加成"			TraitType="MINOR_CIV_AMSTERDAM_TRAIT"/>
+		<Row Retain="不要"	Name="布鲁塞尔宗主国加成"			TraitType="MINOR_CIV_BRUSSELS_TRAIT"/>
+		<Row Retain="不要"	Name="布宜诺斯艾利斯宗主国加成"		TraitType="MINOR_CIV_BUENOS_AIRES_TRAIT"/>
+		<Row Retain="不要"	Name="迦太基宗主国加成"				TraitType="MINOR_CIV_CARTHAGE_TRAIT"/>
+		<Row Retain="不要"	Name="日内瓦宗主国加成"				TraitType="MINOR_CIV_GENEVA_TRAIT"/>
+		<Row Retain="不要"	Name="哈图沙宗主国加成"				TraitType="MINOR_CIV_HATTUSA_TRAIT"/>
+		<Row Retain="不要"	Name="香港宗主国加成"				TraitType="MINOR_CIV_HONG_KONG_TRAIT"/>
+		<Row Retain="不要"	Name="斯里巴加湾宗主国加成"			TraitType="MINOR_CIV_JAKARTA_TRAIT"/>
+		<Row Retain="不要"	Name="耶路撒冷宗主国加成"			TraitType="MINOR_CIV_JERUSALEM_TRAIT"/>
+		<Row Retain="不要"	Name="喀布尔宗主国加成"				TraitType="MINOR_CIV_KABUL_TRAIT"/>
+		<Row Retain="不要"	Name="康堤宗主国加成"				TraitType="MINOR_CIV_KANDY_TRAIT"/>
+		<Row Retain="不要"	Name="库马西宗主国加成"				TraitType="MINOR_CIV_KUMASI_TRAIT"/>
+		<Row Retain="不要"	Name="拉文塔宗主国加成"				TraitType="MINOR_CIV_LA_VENTA_TRAIT"/>
+		<Row Retain="不要"	Name="里斯本宗主国加成"				TraitType="MINOR_CIV_LISBON_TRAIT"/>
+		<Row Retain="不要"	Name="摩亨朱-达罗宗主国加成"		TraitType="MINOR_CIV_MOHENJO_DARO_TRAIT"/>
+		<Row Retain="不要"	Name="南马都尔宗主国加成"			TraitType="MINOR_CIV_NAN_MADOL_TRAIT"/>
+		<Row Retain="不要"	Name="普雷斯拉夫宗主国加成"			TraitType="MINOR_CIV_PRESLAV_TRAIT"/>
+		<Row Retain="不要"	Name="首尔宗主国加成"				TraitType="MINOR_CIV_SEOUL_TRAIT"/>
+		<Row Retain="不要"	Name="斯德哥尔摩宗主国加成"			TraitType="MINOR_CIV_STOCKHOLM_TRAIT"/>
+		<Row Retain="不要"	Name="多伦多宗主国加成"				TraitType="MINOR_CIV_TORONTO_TRAIT"/>
+		<Row Retain="不要"	Name="瓦莱塔宗主国加成"				TraitType="MINOR_CIV_VALLETTA_TRAIT"/>
+		<Row Retain="不要"	Name="维尔纽斯宗主国加成"			TraitType="MINOR_CIV_VILNIUS_TRAIT"/>
+		<Row Retain="不要"	Name="埃里温宗主国加成"				TraitType="MINOR_CIV_YEREVAN_TRAIT"/>
+		<Row Retain="不要"	Name="桑给巴尔宗主国加成"			TraitType="MINOR_CIV_ZANZIBAR_TRAIT"/>
+		<Row Retain="不要"	Name="安提阿宗主国加成"				TraitType="MINOR_CIV_ANTIOCH_TRAIT"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="巴比伦宗主国加成"				TraitType="MINOR_CIV_BABYLON_TRAIT"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="沿海城邦"						TraitType="MINOR_CIV_MARITIME_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="斯里巴加湾宗主国加成"			TraitType="MINOR_CIV_BANDAR_BRUNEI_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="大理宗主国加成"				TraitType="MINOR_CIV_DALI_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="德里宗主国加成"				TraitType="MINOR_CIV_DELHI_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="高昌宗主国加成"				TraitType="MINOR_CIV_GAOCHANG_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="果亚宗主国加成"				TraitType="MINOR_CIV_GOA_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="平安宗主国加成"				TraitType="MINOR_CIV_HEIAN_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="开城宗主国加成"				TraitType="MINOR_CIV_KAESONG_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="喀什宗主国加成"				TraitType="MINOR_CIV_KASHGAR_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="于阗宗主国加成"				TraitType="MINOR_CIV_KHOTAN_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="龟兹宗主国加成"				TraitType="MINOR_CIV_KUCHA_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="南奔宗主国加成"				TraitType="MINOR_CIV_LAMPHUN_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="南浡里宗主国加成"				TraitType="MINOR_CIV_LAMURI_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="马拉邦宗主国加成"				TraitType="MINOR_CIV_MALABANG_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="蒲甘宗主国加成"				TraitType="MINOR_CIV_PAGAN_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="巨港宗主国加成"				TraitType="MINOR_CIV_PALEMBANG_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="撒马尔罕宗主国加成"			TraitType="MINOR_CIV_SAMARKAND_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="索姆纳特宗主国加成"			TraitType="MINOR_CIV_SOMNATH_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="升龙宗主国加成"				TraitType="MINOR_CIV_THANG_LONG_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="淡马锡宗主国加成"				TraitType="MINOR_CIV_TEMASEK_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="汤都宗主国加成"				TraitType="MINOR_CIV_TONDO_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="吐鲁番宗主国加成"				TraitType="MINOR_CIV_TURPAN_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="邬阇衍那宗主国加成"			TraitType="MINOR_CIV_UJJAIN_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="毘阇耶宗主国加成"				TraitType="MINOR_CIV_VIJAYA_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="兴庆宗主国加成"				TraitType="MINOR_CIV_XINGQING_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="中京宗主国加成"				TraitType="MINOR_CIV_ZHONGJING_TRAIT"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="格但斯克宗主国加成"			TraitType="MINOR_CIV_GDANSK_TRAIT"/><!--DLC：波兰文明礼包-->
+		<Row Retain="不要"	Name="布拉格宗主国加成"				TraitType="MINOR_CIV_PRAGUE_TRAIT"/><!--DLC：波兰文明礼包-->
+		<Row Retain="不要"	Name="维也纳宗主国加成"				TraitType="MINOR_CIV_VIENNA_TRAIT"/><!--DLC：波兰文明礼包-->
+		<Row Retain="不要"	Name="奥克兰宗主国加成"				TraitType="MINOR_CIV_AUCKLAND_TRAIT"/><!--DLC：维京人包-->
+		<Row Retain="不要"	Name="塔那那利佛宗主国加成"			TraitType="MINOR_CIV_ANTANANARIVO_TRAIT"/><!--DLC：维京人包-->
+		<Row Retain="不要"	Name="阿尔马宗主国加成"				TraitType="MINOR_CIV_ARMAGH_TRAIT"/><!--DLC：维京人包-->
+		<Row Retain="不要"	Name="格拉纳达宗主国加成"			TraitType="MINOR_CIV_GRANADA_TRAIT"/><!--DLC：维京人包-->
+		<Row Retain="不要"	Name="马斯喀特宗主国加成"			TraitType="MINOR_CIV_MUSCAT_TRAIT"/><!--DLC：维京人包-->
+		<Row Retain="不要"	Name="帕伦克宗主国加成"				TraitType="MINOR_CIV_PALENQUE_TRAIT"/><!--DLC：维京人包-->
+
+	</AAMyTraitSetting>						
+
+	<AAMyTraitElementSetting>			<!--配置想不要的特性建筑、兵种、改良建筑-->
+		<Row Retain="不要"	Name="电影制片厂"			ReplacesName="广播中心"			Type="建筑"	TraitType="TRAIT_CIVILIZATION_BUILDING_FILM_STUDIO"			TypeType="BUILDING_FILM_STUDIO"				ReplacesTypeType="BUILDING_BROADCAST_CENTER"/>
+		<Row Retain="不要"	Name="蹴球场"				ReplacesName="竞技场"			Type="建筑"	TraitType="TRAIT_CIVILIZATION_BUILDING_TLACHTLI"			TypeType="BUILDING_TLACHTLI"				ReplacesTypeType="BUILDING_ARENA"/><!--DLC：阿兹特克文明礼包-->
+		<Row Retain="不要"	Name="伊斯兰学校"			ReplacesName="大学"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_BUILDING_MADRASA"				TypeType="BUILDING_MADRASA"					ReplacesTypeType="BUILDING_UNIVERSITY"/>
+		<Row Retain="不要"	Name="木板教堂"				ReplacesName="寺庙"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_BUILDING_STAVE_CHURCH"		TypeType="BUILDING_STAVE_CHURCH"			ReplacesTypeType="BUILDING_TEMPLE"/>
+		<Row Retain="不要"	Name="电子厂"				ReplacesName="工厂"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_BUILDING_ELECTRONICS_FACTORY"	TypeType="BUILDING_ELECTRONICS_FACTORY"		ReplacesTypeType="BUILDING_FACTORY"/>
+		<Row Retain="不要"	Name="高棉庙堂"				ReplacesName="寺庙"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_BUILDING_PRASAT"				TypeType="BUILDING_PRASAT"					ReplacesTypeType="BUILDING_TEMPLE"/><!--DLC：高棉与印尼文明包-->
+		<Row Retain="不要"	Name="皇家学堂"				ReplacesName="兵营"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_BUILDING_BASILIKOI_PAIDES"	TypeType="BUILDING_BASILIKOI_PAIDES"		ReplacesTypeType="BUILDING_BARRACKS"/><!--DLC：波斯与马其顿文明包-->
+		<Row Retain="不要"	Name="纺织会馆"				ReplacesName="市场"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_BUILDING_SUKIENNICE"			TypeType="BUILDING_SUKIENNICE"				ReplacesTypeType="BUILDING_MARKET"/><!--情景：雅德维加的遗产-->
+		<Row Retain="不要"	Name="斡耳朵"				ReplacesName="马厩"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_BUILDING_ORDU"				TypeType="BUILDING_ORDU"					ReplacesTypeType="BUILDING_STABLE"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="堡垒"					ReplacesName="文艺复兴城墙"		Type="建筑"	TraitType="TRAIT_CIVILIZATION_BUILDING_TSIKHE"				TypeType="BUILDING_TSIKHE"					ReplacesTypeType="BUILDING_STAR_FORT"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="卫城"					ReplacesName="剧院广场"			Type="建筑"	TraitType="TRAIT_CIVILIZATION_DISTRICT_ACROPOLIS"			TypeType="DISTRICT_ACROPOLIS"				ReplacesTypeType="DISTRICT_THEATER"/>
+		<Row Retain="不要"	Name="浴场"					ReplacesName="水渠"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_DISTRICT_BATH"				TypeType="DISTRICT_BATH"					ReplacesTypeType="DISTRICT_AQUEDUCT"/>
+		<Row Retain="不要"	Name="商业同业工会"			ReplacesName="工业区"			Type="建筑"	TraitType="TRAIT_CIVILIZATION_DISTRICT_HANSA"				TypeType="DISTRICT_HANSA"					ReplacesTypeType="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row Retain="不要"	Name="拉夫拉修道院"			ReplacesName="圣地"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_DISTRICT_LAVRA"				TypeType="DISTRICT_LAVRA"					ReplacesTypeType="DISTRICT_HOLY_SITE"/>
+		<Row Retain="不要"	Name="姆班赞"				ReplacesName="社区"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_MBANZA"						TypeType="DISTRICT_MBANZA"					ReplacesTypeType="DISTRICT_NEIGHBORHOOD"/>
+		<Row Retain="不要"	Name="街头狂欢节"			ReplacesName="娱乐中心"			Type="建筑"	TraitType="TRAIT_CIVILIZATION_STREET_CARNIVAL"				TypeType="DISTRICT_STREET_CARNIVAL"			ReplacesTypeType="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row Retain="不要"	Name="皇家海军船坞"			ReplacesName="港口"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_ROYAL_NAVY_DOCKYARD"			TypeType="DISTRICT_ROYAL_NAVY_DOCKYARD"		ReplacesTypeType="DISTRICT_HARBOR"/>
+		<Row Retain="不要"	Name="伊坎达"				ReplacesName="军营"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_DISTRICT_IKANDA"				TypeType="DISTRICT_IKANDA"					ReplacesTypeType="DISTRICT_ENCAMPMENT"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="书院"					ReplacesName="学院"				Type="建筑"	TraitType="TRAIT_CIVILIZATION_DISTRICT_SEOWON"				TypeType="DISTRICT_SEOWON"					ReplacesTypeType="DISTRICT_CAMPUS"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="科帕卡瓦纳"			ReplacesName="水上乐园"			Type="建筑"	TraitType="TRAIT_CIVILIZATION_STREET_CARNIVAL"				TypeType="DISTRICT_WATER_STREET_CARNIVAL"	ReplacesTypeType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+
+		<Row Retain="不要"	Name="雄鹰战士"				ReplacesName="勇士"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_AZTEC_EAGLE_WARRIOR"		TypeType="UNIT_AZTEC_EAGLE_WARRIOR"			ReplacesTypeType="UNIT_WARRIOR"/><!--DLC：阿兹特克文明礼包-->
+		<Row Retain="不要"	Name="重装步兵"				ReplacesName="枪兵"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_GREEK_HOPLITE"			TypeType="UNIT_GREEK_HOPLITE"				ReplacesTypeType="UNIT_SPEARMAN"/>
+		<Row Retain="不要"	Name="世袭贵族战车射手"		ReplacesName="重型战车"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_EGYPTIAN_CHARIOT_ARCHER"	TypeType="UNIT_EGYPTIAN_CHARIOT_ARCHER"		ReplacesTypeType="UNIT_HEAVY_CHARIOT"/>
+		<Row Retain="不要"	Name="征服者"				ReplacesName="火枪手"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_SPANISH_CONQUISTADOR"	TypeType="UNIT_SPANISH_CONQUISTADOR"		ReplacesTypeType="UNIT_MUSKETMAN"/>
+		<Row Retain="不要"	Name="罗马军团"				ReplacesName="剑客"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_ROMAN_LEGION"			TypeType="UNIT_ROMAN_LEGION"				ReplacesTypeType="UNIT_SWORDSMAN"/>
+		<Row Retain="不要"	Name="维京长船"				ReplacesName="桨帆船"			Type="兵种"	TraitType="TRAIT_LEADER_UNIT_NORWEGIAN_LONGSHIP"			TypeType="UNIT_NORWEGIAN_LONGSHIP"			ReplacesTypeType="UNIT_GALLEY"/>
+		<Row Retain="不要"	Name="哥萨克骑兵"			ReplacesName="骑兵"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_RUSSIAN_COSSACK"			TypeType="UNIT_RUSSIAN_COSSACK"				ReplacesTypeType="UNIT_CAVALRY"/>
+		<Row Retain="不要"	Name="奴隶兵"				ReplacesName="骑士"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_ARABIAN_MAMLUK"			TypeType="UNIT_ARABIAN_MAMLUK"				ReplacesTypeType="UNIT_KNIGHT"/>
+		<Row Retain="不要"	Name="奥姆本巴"				ReplacesName="剑客"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_KONGO_SHIELD_BEARER"		TypeType="UNIT_KONGO_SHIELD_BEARER"			ReplacesTypeType="UNIT_SWORDSMAN"/>
+		<Row Retain="不要"	Name="海猎犬"				ReplacesName="私掠船"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_ENGLISH_SEADOG"			TypeType="UNIT_ENGLISH_SEADOG"				ReplacesTypeType="UNIT_PRIVATEER"/>
+		<Row Retain="不要"	Name="U型潜水艇"			ReplacesName="潜艇"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_GERMAN_UBOAT"			TypeType="UNIT_GERMAN_UBOAT"				ReplacesTypeType="UNIT_SUBMARINE"/>
+		<Row Retain="不要"	Name="P-51战斗机"			ReplacesName="战斗机"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_AMERICAN_P51"			TypeType="UNIT_AMERICAN_P51"				ReplacesTypeType="UNIT_FIGHTER"/>
+		<Row Retain="不要"	Name="米纳斯吉拉斯"			ReplacesName="战舰"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_BRAZILIAN_MINAS_GERAES"	TypeType="UNIT_BRAZILIAN_MINAS_GERAES"		ReplacesTypeType="UNIT_BATTLESHIP"/>
+		<Row Retain="不要"	Name="矿工军团"				ReplacesName="步兵"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_DIGGER"					TypeType="UNIT_DIGGER"						ReplacesTypeType="UNIT_INFANTRY"/><!--DLC：澳大利亚文明礼包-->
+		<Row Retain="不要"	Name="戎克船"				ReplacesName="护卫舰"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_INDONESIAN_JONG"			TypeType="UNIT_INDONESIAN_JONG"				ReplacesTypeType="UNIT_FRIGATE"/><!--DLC：高棉与印尼文明包-->
+		<Row Retain="不要"	Name="持盾护卫"				ReplacesName="剑客"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_HYPASPIST"				TypeType="UNIT_MACEDONIAN_HYPASPIST"		ReplacesTypeType="UNIT_SWORDSMAN"/><!--DLC：波斯与马其顿文明包-->
+		<Row Retain="不要"	Name="伙友骑兵"				ReplacesName="骑手"				Type="兵种"	TraitType="TRAIT_LEADER_UNIT_HETAIROI"						TypeType="UNIT_MACEDONIAN_HETAIROI"			ReplacesTypeType="UNIT_HORSEMAN"/><!--DLC：波斯与马其顿文明包-->
+		<Row Retain="不要"	Name="长生军"				ReplacesName="剑客"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_IMMORTAL"				TypeType="UNIT_PERSIAN_IMMORTAL"			ReplacesTypeType="UNIT_SWORDSMAN"/><!--DLC：波斯与马其顿文明包-->
+		<Row Retain="不要"	Name="班图武士"				ReplacesName="长矛兵"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_ZULU_IMPI"				TypeType="UNIT_ZULU_IMPI"					ReplacesTypeType="UNIT_PIKEMAN"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="高地军团"				ReplacesName="游骑兵"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_SCOTTISH_HIGHLANDER"		TypeType="UNIT_SCOTTISH_HIGHLANDER"			ReplacesTypeType="UNIT_RANGER"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="七省级护卫舰"			ReplacesName="护卫舰"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_DUTCH_ZEVEN_PROVINCIEN"	TypeType="UNIT_DE_ZEVEN_PROVINCIEN"			ReplacesTypeType="UNIT_FRIGATE"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="奥克奇塔乌"			ReplacesName="侦察兵"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_CREE_OKIHTCITAW"			TypeType="UNIT_CREE_OKIHTCITAW"				ReplacesTypeType="UNIT_SCOUT"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="骑师"					ReplacesName="骑士"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_FRANKISH_CABALLARII"		TypeType="UNIT_FRANKISH_CABALLARII"			ReplacesTypeType="UNIT_KNIGHT"/><!--情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="皮塔提弓箭手"			ReplacesName="弓箭手"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_NUBIAN_PITATI"			TypeType="UNIT_NUBIAN_PITATI"				ReplacesTypeType="UNIT_ARCHER"/><!--情景：尼罗河的赠礼-->
+		<Row Retain="不要"	Name="火车"					ReplacesName="野战加农炮"		Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_KOREAN_HWACHA"			TypeType="UNIT_KOREAN_HWACHA"				ReplacesTypeType="UNIT_FIELD_CANNON"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="战车"					ReplacesName="战车"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_SUMERIAN_WAR_CART"		TypeType="UNIT_SUMERIAN_WAR_CART"			ReplacesTypeType="UNIT_SUMERIAN_WAR_CART"/>
+		<Row Retain="不要"	Name="萨卡弓骑手"			ReplacesName="萨卡弓骑手"		Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_SCYTHIAN_HORSE_ARCHER"	TypeType="UNIT_SCYTHIAN_HORSE_ARCHER"		ReplacesTypeType="UNIT_SCYTHIAN_HORSE_ARCHER"/>
+		<Row Retain="不要"	Name="武士"					ReplacesName="武士"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI"		TypeType="UNIT_JAPANESE_SAMURAI"			ReplacesTypeType="UNIT_JAPANESE_SAMURAI"/>
+		<Row Retain="不要"	Name="狂暴武士"				ReplacesName="狂暴武士"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_NORWEGIAN_BERSERKER"		TypeType="UNIT_NORWEGIAN_BERSERKER"			ReplacesTypeType="UNIT_NORWEGIAN_BERSERKER"/>
+		<Row Retain="不要"	Name="战象"					ReplacesName="战象"				Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_INDIAN_VARU"				TypeType="UNIT_INDIAN_VARU"					ReplacesTypeType="UNIT_INDIAN_VARU"/>
+		<Row Retain="不要"	Name="虎蹲炮"				ReplacesName="虎蹲炮"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_CHINESE_CROUCHING_TIGER"	TypeType="UNIT_CHINESE_CROUCHING_TIGER"		ReplacesTypeType="UNIT_CHINESE_CROUCHING_TIGER"/>
+		<Row Retain="不要"	Name="红衫军"				ReplacesName="红衫军"			Type="兵种"	TraitType="TRAIT_LEADER_UNIT_ENGLISH_REDCOAT"				TypeType="UNIT_ENGLISH_REDCOAT"				ReplacesTypeType="UNIT_ENGLISH_REDCOAT"/>
+		<Row Retain="不要"	Name="帝国卫队"				ReplacesName="帝国卫队"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_FRENCH_GARDE_IMPERIALE"	TypeType="UNIT_FRENCH_GARDE_IMPERIALE"		ReplacesTypeType="UNIT_FRENCH_GARDE_IMPERIALE"/>
+		<Row Retain="不要"	Name="莽骑兵"				ReplacesName="莽骑兵"			Type="兵种"	TraitType="TRAIT_LEADER_UNIT_AMERICAN_ROUGH_RIDER"			TypeType="UNIT_AMERICAN_ROUGH_RIDER"		ReplacesTypeType="UNIT_AMERICAN_ROUGH_RIDER"/>
+		<Row Retain="不要"	Name="怯薛歹"				ReplacesName="怯薛歹"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_MONGOLIAN_KESHIG"		TypeType="UNIT_MONGOLIAN_KESHIG"			ReplacesTypeType="UNIT_MONGOLIAN_KESHIG"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="赫雷苏维季战士"		ReplacesName="赫雷苏维季战士"	Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_GEORGIAN_KHEVSURETI"		TypeType="UNIT_GEORGIAN_KHEVSURETI"			ReplacesTypeType="UNIT_GEORGIAN_KHEVSURETI"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="装甲突袭骑兵"			ReplacesName="装甲突袭骑兵"		Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_MAPUCHE_MALON_RAIDER"	TypeType="UNIT_MAPUCHE_MALON_RAIDER"		ReplacesTypeType="UNIT_MAPUCHE_MALON_RAIDER"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="高棉战象"				ReplacesName="高棉战象"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_KHMER_DOMREY"			TypeType="UNIT_KHMER_DOMREY"				ReplacesTypeType="UNIT_KHMER_DOMREY"/><!--DLC：高棉与印尼文明包-->
+		<Row Retain="不要"	Name="翼骑兵"				ReplacesName="翼骑兵"			Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_POLISH_HUSSAR"			TypeType="UNIT_POLISH_HUSSAR"				ReplacesTypeType="UNIT_POLISH_HUSSAR"/><!--情景：雅德维加的遗产-->
+		<Row Retain="不要"	Name="苏丹亲兵"				ReplacesName="苏丹亲兵"			Type="兵种"	TraitType="TRAIT_BARBARIAN"									TypeType="UNIT_OTTOMAN_JANISSARY"			ReplacesTypeType="UNIT_OTTOMAN_JANISSARY"/>
+		<Row Retain="不要"	Name="伊比利亚雇佣兵"		ReplacesName="伊比利亚雇佣兵"	Type="兵种"	TraitType="TRAIT_CIVILIZATION_UNIT_MOORISH_FARFANES"		TypeType="UNIT_MOORISH_FARFANES"			ReplacesTypeType="UNIT_MOORISH_FARFANES"/><!--情景：维京人、商人，也是掠夺者-->
+
+		<Row Retain="不要"	Name="城堡"					ReplacesName="城堡"				Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CHATEAU"			TypeType="IMPROVEMENT_CHATEAU"/>
+		<Row Retain="不要"	Name="长城"					ReplacesName="长城"				Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_GREAT_WALL"		TypeType="IMPROVEMENT_GREAT_WALL"/>
+		<Row Retain="不要"	Name="坟墩"					ReplacesName="坟墩"				Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KURGAN"			TypeType="IMPROVEMENT_KURGAN"/>
+		<Row Retain="不要"	Name="传教团"				ReplacesName="传教团"			Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MISSION"			TypeType="IMPROVEMENT_MISSION"/>
+		<Row Retain="不要"	Name="狮身人面像"			ReplacesName="狮身人面像"		Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SPHINX"			TypeType="IMPROVEMENT_SPHINX"/>
+		<Row Retain="不要"	Name="梯井"					ReplacesName="梯井"				Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_STEPWELL"			TypeType="IMPROVEMENT_STEPWELL"/>
+		<Row Retain="不要"	Name="金字形神塔"			ReplacesName="金字形神塔"		Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ZIGGURAT"			TypeType="IMPROVEMENT_ZIGGURAT"/>
+		<Row Retain="不要"	Name="内陆牧场"				ReplacesName="内陆牧场"			Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_OUTBACK_STATION"	TypeType="IMPROVEMENT_OUTBACK_STATION"/><!--DLC：澳大利亚文明礼包-->
+		<Row Retain="不要"	Name="甘榜屋"				ReplacesName="甘榜屋"			Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KAMPUNG"			TypeType="IMPROVEMENT_KAMPUNG"/><!--DLC：高棉与印尼文明包-->
+		<Row Retain="不要"	Name="波斯庭院"				ReplacesName="波斯庭院"			Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_PAIRIDAEZA"		TypeType="IMPROVEMENT_PAIRIDAEZA"/><!--DLC：波斯与马其顿文明包-->
+		<Row Retain="不要"	Name="马普切木人"			ReplacesName="马普切木人"		Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CHEMAMULL"		TypeType="IMPROVEMENT_CHEMAMULL"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="高尔夫球场"			ReplacesName="高尔夫球场"		Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_GOLF_COURSE"		TypeType="IMPROVEMENT_GOLF_COURSE"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="棚屋"					ReplacesName="棚屋"				Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MEKEWAP"			TypeType="IMPROVEMENT_MEKEWAP"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="努比亚金字塔"			ReplacesName="努比亚金字塔"		Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_PYRAMID"			TypeType="IMPROVEMENT_PYRAMID"/><!--情景：尼罗河的赠礼-->
+		<Row Retain="不要"	Name="圩田"					ReplacesName="圩田"				Type="改良"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_POLDER"			TypeType="IMPROVEMENT_POLDER"/><!--资料片：迭起兴衰-->
+	</AAMyTraitElementSetting>						
+
+	<AAMyInitialActivationCivicsTech>	<!--配置初始获得的科技和市政，和加速选项没有关系-->
+		<Row Retain="不要"	Name="制陶术"			Type="科技"	TypeType="TECH_POTTERY"/>
+		<Row Retain="不要"	Name="畜牧业"			Type="科技"	TypeType="TECH_ANIMAL_HUSBANDRY"/>
+		<Row Retain="不要"	Name="采矿业"			Type="科技"	TypeType="TECH_MINING"/>
+		<Row Retain="不要"	Name="航海术"			Type="科技"	TypeType="TECH_SAILING"/>
+		<Row Retain="不要"	Name="占星术"			Type="科技"	TypeType="TECH_ASTROLOGY"/>
+		<Row Retain="不要"	Name="灌溉"				Type="科技"	TypeType="TECH_IRRIGATION"/>
+		<Row Retain="不要"	Name="箭术"				Type="科技"	TypeType="TECH_ARCHERY"/>
+		<Row Retain="不要"	Name="写作"				Type="科技"	TypeType="TECH_WRITING"/>
+		<Row Retain="不要"	Name="砌砖"				Type="科技"	TypeType="TECH_MASONRY"/>
+		<Row Retain="不要"	Name="铸铜术"			Type="科技"	TypeType="TECH_BRONZE_WORKING"/>
+		<Row Retain="不要"	Name="轮子"				Type="科技"	TypeType="TECH_THE_WHEEL"/>
+		<Row Retain="不要"	Name="天文导航"			Type="科技"	TypeType="TECH_CELESTIAL_NAVIGATION"/>
+		<Row Retain="不要"	Name="货币"				Type="科技"	TypeType="TECH_CURRENCY"/>
+		<Row Retain="不要"	Name="骑马"				Type="科技"	TypeType="TECH_HORSEBACK_RIDING"/>
+		<Row Retain="不要"	Name="炼铁术"			Type="科技"	TypeType="TECH_IRON_WORKING"/>
+		<Row Retain="不要"	Name="造船术"			Type="科技"	TypeType="TECH_SHIPBUILDING"/>
+		<Row Retain="不要"	Name="数学"				Type="科技"	TypeType="TECH_MATHEMATICS"/>
+		<Row Retain="不要"	Name="建造"				Type="科技"	TypeType="TECH_CONSTRUCTION"/>
+		<Row Retain="不要"	Name="工程"				Type="科技"	TypeType="TECH_ENGINEERING"/>
+		<Row Retain="不要"	Name="战术"				Type="科技"	TypeType="TECH_MILITARY_TACTICS"/>
+		<Row Retain="不要"	Name="学徒"				Type="科技"	TypeType="TECH_APPRENTICESHIP"/>
+		<Row Retain="不要"	Name="机械"				Type="科技"	TypeType="TECH_MACHINERY"/>
+		<Row Retain="不要"	Name="教育"				Type="科技"	TypeType="TECH_EDUCATION"/>
+		<Row Retain="不要"	Name="马镫"				Type="科技"	TypeType="TECH_STIRRUPS"/>
+		<Row Retain="不要"	Name="军事工程学"		Type="科技"	TypeType="TECH_MILITARY_ENGINEERING"/>
+		<Row Retain="不要"	Name="城堡"				Type="科技"	TypeType="TECH_CASTLES"/>
+		<Row Retain="不要"	Name="制图学"			Type="科技"	TypeType="TECH_CARTOGRAPHY"/>
+		<Row Retain="不要"	Name="批量生产"			Type="科技"	TypeType="TECH_MASS_PRODUCTION"/>
+		<Row Retain="不要"	Name="银行业"			Type="科技"	TypeType="TECH_BANKING"/>
+		<Row Retain="不要"	Name="火药"				Type="科技"	TypeType="TECH_GUNPOWDER"/>
+		<Row Retain="不要"	Name="印刷术"			Type="科技"	TypeType="TECH_PRINTING"/>
+		<Row Retain="不要"	Name="横帆装置"			Type="科技"	TypeType="TECH_SQUARE_RIGGING"/>
+		<Row Retain="不要"	Name="天文学"			Type="科技"	TypeType="TECH_ASTRONOMY"/>
+		<Row Retain="不要"	Name="金属铸造"			Type="科技"	TypeType="TECH_METAL_CASTING"/>
+		<Row Retain="不要"	Name="攻城术"			Type="科技"	TypeType="TECH_SIEGE_TACTICS"/>
+		<Row Retain="不要"	Name="工业化"			Type="科技"	TypeType="TECH_INDUSTRIALIZATION"/>
+		<Row Retain="不要"	Name="科学理论"			Type="科技"	TypeType="TECH_SCIENTIFIC_THEORY"/>
+		<Row Retain="不要"	Name="弹道学"			Type="科技"	TypeType="TECH_BALLISTICS"/>
+		<Row Retain="不要"	Name="军事学"			Type="科技"	TypeType="TECH_MILITARY_SCIENCE"/>
+		<Row Retain="不要"	Name="蒸汽动力"			Type="科技"	TypeType="TECH_STEAM_POWER"/>
+		<Row Retain="不要"	Name="卫生设备"			Type="科技"	TypeType="TECH_SANITATION"/>
+		<Row Retain="不要"	Name="经济"				Type="科技"	TypeType="TECH_ECONOMICS"/>
+		<Row Retain="不要"	Name="膛线"				Type="科技"	TypeType="TECH_RIFLING"/>
+		<Row Retain="不要"	Name="飞行"				Type="科技"	TypeType="TECH_FLIGHT"/>
+		<Row Retain="不要"	Name="标准化生产"		Type="科技"	TypeType="TECH_REPLACEABLE_PARTS"/>
+		<Row Retain="不要"	Name="钢铁"				Type="科技"	TypeType="TECH_STEEL"/>
+		<Row Retain="不要"	Name="电力"				Type="科技"	TypeType="TECH_ELECTRICITY"/>
+		<Row Retain="不要"	Name="无线电"			Type="科技"	TypeType="TECH_RADIO"/>
+		<Row Retain="不要"	Name="化学"				Type="科技"	TypeType="TECH_CHEMISTRY"/>
+		<Row Retain="不要"	Name="内燃机"			Type="科技"	TypeType="TECH_COMBUSTION"/>
+		<Row Retain="不要"	Name="现代航空"			Type="科技"	TypeType="TECH_ADVANCED_FLIGHT"/>
+		<Row Retain="不要"	Name="火箭研究"			Type="科技"	TypeType="TECH_ROCKETRY"/>
+		<Row Retain="不要"	Name="高级弹道学"		Type="科技"	TypeType="TECH_ADVANCED_BALLISTICS"/>
+		<Row Retain="不要"	Name="联合作战"			Type="科技"	TypeType="TECH_COMBINED_ARMS"/>
+		<Row Retain="不要"	Name="塑料"				Type="科技"	TypeType="TECH_PLASTICS"/>
+		<Row Retain="不要"	Name="电脑"				Type="科技"	TypeType="TECH_COMPUTERS"/>
+		<Row Retain="不要"	Name="核裂变"			Type="科技"	TypeType="TECH_NUCLEAR_FISSION"/>
+		<Row Retain="不要"	Name="合成材料"			Type="科技"	TypeType="TECH_SYNTHETIC_MATERIALS"/>
+		<Row Retain="不要"	Name="远程通信"			Type="科技"	TypeType="TECH_TELECOMMUNICATIONS"/>
+		<Row Retain="不要"	Name="卫星"				Type="科技"	TypeType="TECH_SATELLITES"/>
+		<Row Retain="不要"	Name="制导系统"			Type="科技"	TypeType="TECH_GUIDANCE_SYSTEMS"/>
+		<Row Retain="不要"	Name="激光"				Type="科技"	TypeType="TECH_LASERS"/>
+		<Row Retain="不要"	Name="复合材料"			Type="科技"	TypeType="TECH_COMPOSITES"/>
+		<Row Retain="不要"	Name="隐形技术"			Type="科技"	TypeType="TECH_STEALTH_TECHNOLOGY"/>
+		<Row Retain="不要"	Name="机器人技术"		Type="科技"	TypeType="TECH_ROBOTICS"/>
+		<Row Retain="不要"	Name="纳米技术"			Type="科技"	TypeType="TECH_NANOTECHNOLOGY"/>
+		<Row Retain="不要"	Name="核聚变"			Type="科技"	TypeType="TECH_NUCLEAR_FUSION"/>
+		<Row Retain="不要"	Name="未来科技"			Type="科技"	TypeType="TECH_FUTURE_TECH"/>
+		<Row Retain="不要"	Name="造船术"			Type="科技"	TypeType="TECH_SHIPBUILDING"/>
+		<Row Retain="不要"	Name="制图学"			Type="科技"	TypeType="TECH_CARTOGRAPHY"/>
+		<Row Retain="不要"	Name="灌溉"				Type="科技"	TypeType="TECH_IRRIGATION"/>
+		<Row Retain="不要"	Name="采矿业"			Type="科技"	TypeType="TECH_MINING"/>
+		<Row Retain="不要"	Name="教育"				Type="科技"	TypeType="TECH_EDUCATION"/>
+		<Row Retain="不要"	Name="银行业"			Type="科技"	TypeType="TECH_BANKING"/>
+		<Row Retain="不要"	Name="工业化"			Type="科技"	TypeType="TECH_INDUSTRIALIZATION"/>
+		<Row Retain="不要"	Name="工程"				Type="科技"	TypeType="TECH_ENGINEERING"/>
+		<Row Retain="不要"	Name="科学理论"			Type="科技"	TypeType="TECH_SCIENTIFIC_THEORY"/>
+		<Row Retain="不要"	Name="经济"				Type="科技"	TypeType="TECH_ECONOMICS"/>
+		<Row Retain="不要"	Name="电力"				Type="科技"	TypeType="TECH_ELECTRICITY"/>
+		<Row Retain="不要"	Name="飞行"				Type="科技"	TypeType="TECH_FLIGHT"/>
+		<Row Retain="不要"	Name="内燃机"			Type="科技"	TypeType="TECH_COMBUSTION"/>
+		<Row Retain="不要"	Name="无线电"			Type="科技"	TypeType="TECH_RADIO"/>
+		<Row Retain="不要"	Name="现代航空"			Type="科技"	TypeType="TECH_ADVANCED_FLIGHT"/>
+		<Row Retain="不要"	Name="未来科技"			Type="科技"	TypeType="TECH_FUTURE_TECH"/>
+		<Row Retain="不要"	Name="捕鱼"				Type="科技"	TypeType="TECH_FISHING"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="医学"				Type="科技"	TypeType="TECH_MEDICINE"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="防御工事"			Type="科技"	TypeType="TECH_FORTIFICATION"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="陵墓建造"			Type="科技"	TypeType="TECH_TOMB_BUILDING"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="航海术"			Type="科技"	TypeType="TECH_SAILING"/>
+		<Row Retain="不要"	Name="长船"				Type="科技"	TypeType="TECH_LONGSHIPS"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="会议厅"			Type="科技"	TypeType="TECH_MEAD_HALLS"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="学徒"				Type="科技"	TypeType="TECH_APPRENTICESHIP"/>
+		<Row Retain="不要"	Name="运输"				Type="科技"	TypeType="TECH_PORTAGE"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="马镫"				Type="科技"	TypeType="TECH_STIRRUPS"/>
+		<Row Retain="不要"	Name="盾墙"				Type="科技"	TypeType="TECH_SHIELDWALL"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="龙骨船"			Type="科技"	TypeType="TECH_KNARRS"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="工程"				Type="科技"	TypeType="TECH_ENGINEERING"/>
+		<Row Retain="不要"	Name="维京雄狮"			Type="科技"	TypeType="TECH_GREAT_HEATHEN_ARMY"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="银碎片"			Type="科技"	TypeType="TECH_HACKSILVER"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="机械"				Type="科技"	TypeType="TECH_MACHINERY"/>
+		<Row Retain="不要"	Name="长矛"				Type="科技"	TypeType="TECH_LANCES"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="战术"				Type="科技"	TypeType="TECH_MILITARY_TACTICS"/>
+		<Row Retain="不要"	Name="造船术"			Type="科技"	TypeType="TECH_SHIPBUILDING"/>
+		<Row Retain="不要"	Name="中世纪集市"		Type="科技"	TypeType="TECH_MEDIEVAL_FAIRES"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="军事工程学"		Type="科技"	TypeType="TECH_MILITARY_ENGINEERING"/>
+		<Row Retain="不要"	Name="城堡"				Type="科技"	TypeType="TECH_CASTLES"/>
+		<Row Retain="不要"	Name="未来科技"			Type="科技"	TypeType="TECH_FUTURE_TECH"/>
+		<Row Retain="不要"	Name="法典"				Type="市政"	TypeType="CIVIC_CODE_OF_LAWS"/>
+		<Row Retain="不要"	Name="技艺"				Type="市政"	TypeType="CIVIC_CRAFTSMANSHIP"/>
+		<Row Retain="不要"	Name="对外贸易"			Type="市政"	TypeType="CIVIC_FOREIGN_TRADE"/>
+		<Row Retain="不要"	Name="军事传统"			Type="市政"	TypeType="CIVIC_MILITARY_TRADITION"/>
+		<Row Retain="不要"	Name="国家劳动力"		Type="市政"	TypeType="CIVIC_STATE_WORKFORCE"/>
+		<Row Retain="不要"	Name="帝国初期"			Type="市政"	TypeType="CIVIC_EARLY_EMPIRE"/>
+		<Row Retain="不要"	Name="神秘主义"			Type="市政"	TypeType="CIVIC_MYSTICISM"/>
+		<Row Retain="不要"	Name="游戏和娱乐"		Type="市政"	TypeType="CIVIC_GAMES_RECREATION"/>
+		<Row Retain="不要"	Name="政治哲学"			Type="市政"	TypeType="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row Retain="不要"	Name="戏剧和诗歌"		Type="市政"	TypeType="CIVIC_DRAMA_POETRY"/>
+		<Row Retain="不要"	Name="军事训练"			Type="市政"	TypeType="CIVIC_MILITARY_TRAINING"/>
+		<Row Retain="不要"	Name="防御战术"			Type="市政"	TypeType="CIVIC_DEFENSIVE_TACTICS"/>
+		<Row Retain="不要"	Name="历史记录"			Type="市政"	TypeType="CIVIC_RECORDED_HISTORY"/>
+		<Row Retain="不要"	Name="神学"				Type="市政"	TypeType="CIVIC_THEOLOGY"/>
+		<Row Retain="不要"	Name="海军传统"			Type="市政"	TypeType="CIVIC_NAVAL_TRADITION"/>
+		<Row Retain="不要"	Name="封建主义"			Type="市政"	TypeType="CIVIC_FEUDALISM"/>
+		<Row Retain="不要"	Name="行政部门"			Type="市政"	TypeType="CIVIC_CIVIL_SERVICE"/>
+		<Row Retain="不要"	Name="雇佣兵"			Type="市政"	TypeType="CIVIC_MERCENARIES"/>
+		<Row Retain="不要"	Name="中世纪集市"		Type="市政"	TypeType="CIVIC_MEDIEVAL_FAIRES"/>
+		<Row Retain="不要"	Name="公会"				Type="市政"	TypeType="CIVIC_GUILDS"/>
+		<Row Retain="不要"	Name="王权神授"			Type="市政"	TypeType="CIVIC_DIVINE_RIGHT"/>
+		<Row Retain="不要"	Name="探索"				Type="市政"	TypeType="CIVIC_EXPLORATION"/>
+		<Row Retain="不要"	Name="人文主义"			Type="市政"	TypeType="CIVIC_HUMANISM"/>
+		<Row Retain="不要"	Name="外交部门"			Type="市政"	TypeType="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Row Retain="不要"	Name="归正会"			Type="市政"	TypeType="CIVIC_REFORMED_CHURCH"/>
+		<Row Retain="不要"	Name="重商主义"			Type="市政"	TypeType="CIVIC_MERCANTILISM"/>
+		<Row Retain="不要"	Name="启蒙运动"			Type="市政"	TypeType="CIVIC_THE_ENLIGHTENMENT"/>
+		<Row Retain="不要"	Name="殖民主义"			Type="市政"	TypeType="CIVIC_COLONIALISM"/>
+		<Row Retain="不要"	Name="土木工程"			Type="市政"	TypeType="CIVIC_CIVIL_ENGINEERING"/>
+		<Row Retain="不要"	Name="民族主义"			Type="市政"	TypeType="CIVIC_NATIONALISM"/>
+		<Row Retain="不要"	Name="歌剧和芭蕾"		Type="市政"	TypeType="CIVIC_OPERA_BALLET"/>
+		<Row Retain="不要"	Name="自然历史"			Type="市政"	TypeType="CIVIC_NATURAL_HISTORY"/>
+		<Row Retain="不要"	Name="焦土策略"			Type="市政"	TypeType="CIVIC_SCORCHED_EARTH"/>
+		<Row Retain="不要"	Name="城市化"			Type="市政"	TypeType="CIVIC_URBANIZATION"/>
+		<Row Retain="不要"	Name="保护地球"			Type="市政"	TypeType="CIVIC_CONSERVATION"/>
+		<Row Retain="不要"	Name="资本主义"			Type="市政"	TypeType="CIVIC_CAPITALISM"/>
+		<Row Retain="不要"	Name="核计划"			Type="市政"	TypeType="CIVIC_NUCLEAR_PROGRAM"/>
+		<Row Retain="不要"	Name="大众媒体"			Type="市政"	TypeType="CIVIC_MASS_MEDIA"/>
+		<Row Retain="不要"	Name="动员"				Type="市政"	TypeType="CIVIC_MOBILIZATION"/>
+		<Row Retain="不要"	Name="意识形态"			Type="市政"	TypeType="CIVIC_IDEOLOGY"/>
+		<Row Retain="不要"	Name="选举权"			Type="市政"	TypeType="CIVIC_SUFFRAGE"/>
+		<Row Retain="不要"	Name="极权主义"			Type="市政"	TypeType="CIVIC_TOTALITARIANISM"/>
+		<Row Retain="不要"	Name="阶级斗争"			Type="市政"	TypeType="CIVIC_CLASS_STRUGGLE"/>
+		<Row Retain="不要"	Name="冷战"				Type="市政"	TypeType="CIVIC_COLD_WAR"/>
+		<Row Retain="不要"	Name="职业体育"			Type="市政"	TypeType="CIVIC_PROFESSIONAL_SPORTS"/>
+		<Row Retain="不要"	Name="文化遗产"			Type="市政"	TypeType="CIVIC_CULTURAL_HERITAGE"/>
+		<Row Retain="不要"	Name="紧急部署"			Type="市政"	TypeType="CIVIC_RAPID_DEPLOYMENT"/>
+		<Row Retain="不要"	Name="太空竞赛"			Type="市政"	TypeType="CIVIC_SPACE_RACE"/>
+		<Row Retain="不要"	Name="全球化"			Type="市政"	TypeType="CIVIC_GLOBALIZATION"/>
+		<Row Retain="不要"	Name="社交媒体"			Type="市政"	TypeType="CIVIC_SOCIAL_MEDIA"/>
+		<Row Retain="不要"	Name="未来市政"			Type="市政"	TypeType="CIVIC_FUTURE_CIVIC"/>
+		<Row Retain="不要"	Name="流放殖民地"		Type="市政"	TypeType="CIVIC_PENAL_COLONY"/><!--Data情景：内陆大亨-->
+		<Row Retain="不要"	Name="淘金热"			Type="市政"	TypeType="CIVIC_GOLD_RUSH"/><!--Data情景：内陆大亨-->
+		<Row Retain="不要"	Name="皇家殖民地"		Type="市政"	TypeType="CIVIC_CROWN_COLONY"/><!--Data情景：内陆大亨-->
+		<Row Retain="不要"	Name="牧羊业"			Type="市政"	TypeType="CIVIC_SHEEP_REARING"/><!--Data情景：内陆大亨-->
+		<Row Retain="不要"	Name="戏剧和诗歌"		Type="市政"	TypeType="CIVIC_DRAMA_POETRY"/>
+		<Row Retain="不要"	Name="牧场租用"			Type="市政"	TypeType="CIVIC_PASTORAL_LEASES"/><!--Data情景：内陆大亨-->
+		<Row Retain="不要"	Name="联邦"				Type="市政"	TypeType="CIVIC_FEDERATION"/><!--Data情景：内陆大亨-->
+		<Row Retain="不要"	Name="城市化"			Type="市政"	TypeType="CIVIC_URBANIZATION"/>
+		<Row Retain="不要"	Name="保护地球"			Type="市政"	TypeType="CIVIC_CONSERVATION"/>
+		<Row Retain="不要"	Name="第一次世界大战"	Type="市政"	TypeType="CIVIC_GREAT_WAR"/><!--Data情景：内陆大亨-->
+		<Row Retain="不要"	Name="航空服务"			Type="市政"	TypeType="CIVIC_AERIAL_SERVICES"/><!--Data情景：内陆大亨-->
+		<Row Retain="不要"	Name="第二次世界大战"	Type="市政"	TypeType="CIVIC_WORLD_WAR_II"/><!--Data情景：内陆大亨-->
+		<Row Retain="不要"	Name="定期客轮"			Type="市政"	TypeType="CIVIC_CRUISE_LINES"/><!--Data情景：内陆大亨-->
+		<Row Retain="不要"	Name="未来市政"			Type="市政"	TypeType="CIVIC_FUTURE_CIVIC"/>
+		<Row Retain="不要"	Name="帝国初期"			Type="市政"	TypeType="CIVIC_EARLY_EMPIRE"/>
+		<Row Retain="不要"	Name="天文导航"			Type="市政"	TypeType="CIVIC_CELESTIAL_NAVIGATION"/><!--Data情景：涅槃之路-->
+		<Row Retain="不要"	Name="货币"				Type="市政"	TypeType="CIVIC_CURRENCY"/><!--Data情景：涅槃之路-->
+		<Row Retain="不要"	Name="神秘主义"			Type="市政"	TypeType="CIVIC_MYSTICISM"/>
+		<Row Retain="不要"	Name="工程"				Type="市政"	TypeType="CIVIC_ENGINEERING"/><!--Data情景：涅槃之路-->
+		<Row Retain="不要"	Name="公会"				Type="市政"	TypeType="CIVIC_GUILDS"/>
+		<Row Retain="不要"	Name="神学"				Type="市政"	TypeType="CIVIC_THEOLOGY"/>
+		<Row Retain="不要"	Name="技艺"				Type="市政"	TypeType="CIVIC_CRAFTSMANSHIP"/>
+		<Row Retain="不要"	Name="建造"				Type="市政"	TypeType="CIVIC_CONSTRUCTION"/><!--Data情景：涅槃之路-->
+		<Row Retain="不要"	Name="机械"				Type="市政"	TypeType="CIVIC_MACHINERY"/><!--Data情景：涅槃之路-->
+		<Row Retain="不要"	Name="封建主义"			Type="市政"	TypeType="CIVIC_FEUDALISM"/>
+		<Row Retain="不要"	Name="造纸术"			Type="市政"	TypeType="CIVIC_PAPERMAKING"/><!--Data情景：涅槃之路-->
+		<Row Retain="不要"	Name="行政部门"			Type="市政"	TypeType="CIVIC_CIVIL_SERVICE"/>
+		<Row Retain="不要"	Name="印刷术"			Type="市政"	TypeType="CIVIC_PRINTING"/><!--Data情景：涅槃之路-->
+		<Row Retain="不要"	Name="银行业"			Type="市政"	TypeType="CIVIC_BANKING"/><!--Data情景：涅槃之路-->
+		<Row Retain="不要"	Name="指南针"			Type="市政"	TypeType="CIVIC_COMPASS"/><!--Data情景：涅槃之路-->
+		<Row Retain="不要"	Name="王权神授"			Type="市政"	TypeType="CIVIC_DIVINE_RIGHT"/>
+		<Row Retain="不要"	Name="天文学"			Type="市政"	TypeType="CIVIC_ASTRONOMY"/><!--Data情景：涅槃之路-->
+		<Row Retain="不要"	Name="未来市政"			Type="市政"	TypeType="CIVIC_FUTURE_CIVIC"/>
+		<Row Retain="不要"	Name="王朝"				Type="市政"	TypeType="CIVIC_ROYAL_DYNASTIES"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="象形文字"			Type="市政"	TypeType="CIVIC_HIEROGLYPHICS"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="木乃伊化"			Type="市政"	TypeType="CIVIC_MUMMIFICATION"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="文士"				Type="市政"	TypeType="CIVIC_SCRIBES"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="亡灵之书"			Type="市政"	TypeType="CIVIC_BOOK_OF_THE_DEAD"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="缪斯学院"			Type="市政"	TypeType="CIVIC_INSTITUTION_OF_THE_MUSES"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="圣帕"				Type="市政"	TypeType="CIVIC_SEPATS"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="桌游与竞技"		Type="市政"	TypeType="CIVIC_BOARDGAMES_ATHLETICS"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="阿蒙神：众神之主"	Type="市政"	TypeType="CIVIC_AMUN_LORD_OF_ALL_GODS"/><!--DataDLC：努比亚文明礼包-->
+		<Row Retain="不要"	Name="法典"				Type="市政"	TypeType="CIVIC_CODE_OF_LAWS"/>
+		<Row Retain="不要"	Name="海军传统"			Type="市政"	TypeType="CIVIC_NAVAL_TRADITION"/>
+		<Row Retain="不要"	Name="军事传统"			Type="市政"	TypeType="CIVIC_MILITARY_TRADITION"/>
+		<Row Retain="不要"	Name="海军帝国"			Type="市政"	TypeType="CIVIC_NAVAL_EMPIRE"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="军事训练"			Type="市政"	TypeType="CIVIC_MILITARY_TRAINING"/>
+		<Row Retain="不要"	Name="一神教"			Type="市政"	TypeType="CIVIC_MONOTHEISM"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="维京人"			Type="市政"	TypeType="CIVIC_VIKING"/><!--Data情景：维京人、商人，也是掠夺者-->
+		<Row Retain="不要"	Name="封建主义"			Type="市政"	TypeType="CIVIC_FEUDALISM"/>
+		<Row Retain="不要"	Name="神学"				Type="市政"	TypeType="CIVIC_THEOLOGY"/>
+		<Row Retain="不要"	Name="雇佣兵"			Type="市政"	TypeType="CIVIC_MERCENARIES"/>
+		<Row Retain="不要"	Name="历史记录"			Type="市政"	TypeType="CIVIC_RECORDED_HISTORY"/>
+		<Row Retain="不要"	Name="公会"				Type="市政"	TypeType="CIVIC_GUILDS"/>
+		<Row Retain="不要"	Name="王权神授"			Type="市政"	TypeType="CIVIC_DIVINE_RIGHT"/>
+		<Row Retain="不要"	Name="探索"				Type="市政"	TypeType="CIVIC_EXPLORATION"/>
+		<Row Retain="不要"	Name="归正会"			Type="市政"	TypeType="CIVIC_REFORMED_CHURCH"/>
+		<Row Retain="不要"	Name="未来市政"			Type="市政"	TypeType="CIVIC_FUTURE_CIVIC"/>
+	</AAMyInitialActivationCivicsTech>
+
+	<AAMyInitialActivationGreatPerson>	<!--配置初始获得伟人,太多了，自己按照例子添加吧。查看名称对照找GreatPersonIndividualType-->
+		<Row Retain="不要"	Name="圣女贞德"	TypeType="GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC"/>
+		<Row Retain="不要"	Name="马库斯"	TypeType="GREAT_PERSON_INDIVIDUAL_MARCUS_LICINIUS_CRASSUS"/>
+		<Row Retain="不要"	Name="乔凡尼"	TypeType="GREAT_PERSON_INDIVIDUAL_GIOVANNI_DE_MEDICI"/>
+	</AAMyInitialActivationGreatPerson>
+
+	<AAMyInitialActivationUnits>		<!--配置初始获得兵种,太多了，自己按照例子添加吧。查看名称对照找UnitType-->
+		<Row Retain="不要"	Name="建设者"	Num="1"	TypeType="UNIT_BUILDER"/>
+		<Row Retain="不要"	Name="开拓者"	Num="1"	TypeType="UNIT_SETTLER"/>
+	</AAMyInitialActivationUnits>
+
+	<MyCommemorationSetting>			<!--配置想不要的时代特性-->
+		<Row Retain="不要"	Name="自由探索"		CommemorationType="COMMEMORATION_SCIENTIFIC"/><!--尤里卡额外提供10%科技开销.商业中心和港口区域的金币相邻加成也提供科技值.																					着力点加成:每次触发尤里卡+1时代得分.建造以科技值为基础产出的建筑+1时代得分.-->
+		<Row Retain="不要"	Name="百花齐放"		CommemorationType="COMMEMORATION_CULTURAL"/><!--鼓舞额外提供10%的市政开销.城市每拥有1处特色区域,则+1文化值.																								着力点加成:每次触发鼓舞+1时代得分.建成拥有巨作槽位的建筑+1时代得分.-->
+		<Row Retain="不要"	Name="雄伟壮丽"		CommemorationType="COMMEMORATION_INFRASTRUCTURE"/><!--所有建造者+2移动力.可用信仰值购买平民单位.用信仰值和黄金购买建造者和开拓者的费用降低30%.																着力点加成:每修建1座新区域则+1时代得分.-->
+		<Row Retain="不要"	Name="布道者的远行"	CommemorationType="COMMEMORATION_RELIGIOUS"/><!--所有传教士、使徒和审判官+2移动力.此外,新生产的这些单位则+2使用次数.每回合产生的大预言家点数+4.															着力点加成:首次使一座城市信奉您创立的宗教+2时代得分.-->
+		<Row Retain="不要"	Name="此处有龙"		CommemorationType="COMMEMORATION_EXPLORATION"/><!--和首座城市不在同一个大陆上的城市+3初始人口.海军和水运单位+2移动力.和原始首都不在同一个大陆的城市每回合+2忠诚度.											着力点加成:每发现1个新大陆或自然奇观+3时代得分.在战斗中每击杀1个非蛮族海军单位+1时代得分.-->
+		<Row Retain="不要"	Name="货币改革"		CommemorationType="COMMEMORATION_ECONOMIC"/><!--商人无法被掠夺.外国城市中每拥有1个特色区域,国际贸易路线提供的金币+3.																					着力点加成:每成功建立1条贸易路线+1时代得分.-->
+		<Row Retain="不要"	Name="滚滚蒸汽"		CommemorationType="COMMEMORATION_INDUSTRIAL"/><!--建造后工业时代的奇观时+10%生产力.学院区域的科技值相邻加成也可提供生产力.																				着力点加成:每建造1座后工业时代的建筑+1时代得分.-->
+		<Row Retain="不要"	Name="全民皆兵"		CommemorationType="COMMEMORATION_MILITARY"/><!--解锁特殊战争借口,谴责目标后可立即宣战,好战程度-75%.生产军事单位时+15%生产力.																			着力点加成:在战斗中每击杀1个非蛮族军团+1时代得分、每击杀1个非蛮族军队+2时代得分.-->
+		<Row Retain="不要"	Name="愿你在此"		CommemorationType="COMMEMORATION_TOURISM"/>	<!--在拥有总督的城市中,世界奇观产出的旅游业绩+50%.国家公园产出的旅游业绩+100%.																				着力点加成:每发掘1件文物+1时代得分.-->
+		<Row Retain="不要"	Name="漫天繁星"		CommemorationType="COMMEMORATION_AERONAUTICAL"/><!--如处于原子时代,则解锁现代航空、核裂变和火箭技术的尤里卡.如处于信息时代,则解锁卫星、机器人技术、核聚变和纳米技术的尤里卡.所有空中单位获得的经验值+100%.	着力点加成:每建造1座航空港建筑+1时代得分。每获得1名伟人+1时代得分。-->
+		<Row Retain="不要"	Name="兵不厌诈"		CommemorationType="COMMEMORATION_ESPIONAGE"/><!--部署到敌方城市时不消耗时间.完成攻击性任务的时间缩短25%.																									着力点加成:每次进攻性间谍行动成功+1时代得分.-->
+	</MyCommemorationSetting>						
+
+	<MyGovernorPromotionSetting>		<!--配置想不要的总督特性-->
+		<Row Retain="不要"	Name="城市驻军战斗力+5"																		GovernorPromotionType="GOVERNOR_PROMOTION_REDOUBT"/>
+		<Row Retain="不要"	Name="在城市领土中进行防御的单位+5战斗力"													GovernorPromotionType="GOVERNOR_PROMOTION_GARRISON_COMMANDER"/>
+		<Row Retain="不要"	Name="城市不会遭到围攻"																		GovernorPromotionType="GOVERNOR_PROMOTION_DEFENSE_LOGISTICS"/>
+		<Row Retain="不要"	Name="敌方间谍在此城中的行动等级减2"														GovernorPromotionType="GOVERNOR_PROMOTION_SECURITY_EXPERT"/>
+		<Row Retain="不要"	Name="城市每回合额外获得1次远程攻击"														GovernorPromotionType="GOVERNOR_PROMOTION_EMBRASURE"/>
+		<Row Retain="不要"	Name="防御飞机和洲际弹道导弹的攻击时,位于城市领土中的防空支援单位+25战斗力"				GovernorPromotionType="GOVERNOR_PROMOTION_AIR_DEFENSE_INITIATIVE"/>
+		<Row Retain="不要"	Name="可派遣至城邦,效力等同于2名使者"														GovernorPromotionType="GOVERNOR_PROMOTION_AMBASSADOR_MESSENGER"/>
+		<Row Retain="不要"	Name="9个单元格内不属于您的城市对您文明的忠诚度每回合+2"									GovernorPromotionType="GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY"/>
+		<Row Retain="不要"	Name="9个单元格内的己方城市对您文明的忠诚度每回合+2"										GovernorPromotionType="GOVERNOR_PROMOTION_AMBASSADOR_PRESTIGE"/>
+		<Row Retain="不要"	Name="派遣到城邦后将获得该城邦的奢侈品资源"												GovernorPromotionType="GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE"/>
+		<Row Retain="不要"	Name="城市+4宜居度"																			GovernorPromotionType="GOVERNOR_PROMOTION_AMBASSADOR_PROMOTER"/>
+		<Row Retain="不要"	Name="派遣到城邦后使当地的使者数量加倍"													GovernorPromotionType="GOVERNOR_PROMOTION_AMBASSADOR_PUPPETEER"/>
+		<Row Retain="不要"	Name="此城对相邻城市释放的宗教压力强度加倍"												GovernorPromotionType="GOVERNOR_PROMOTION_CARDINAL_BISHOP"/>
+		<Row Retain="不要"	Name="在此城的单元格中进行神学战斗时+10教战斗力"											GovernorPromotionType="GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR"/>
+		<Row Retain="不要"	Name="在城市中建造圣地建筑时+20%生产力"													GovernorPromotionType="GOVERNOR_PROMOTION_CARDINAL_DIVINE_ARCHITECT"/>
+		<Row Retain="不要"	Name="总督的宗教单位在此城的单元格中1回合即可完全恢复体力"									GovernorPromotionType="GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS"/>
+		<Row Retain="不要"	Name="城市无视非总督所属玩家创立宗教的压力和战斗效果"										GovernorPromotionType="GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD"/>
+		<Row Retain="不要"	Name="此城生产的使徒拥有额外一次升级"														GovernorPromotionType="GOVERNOR_PROMOTION_CARDINAL_PATRON_SAINT"/>
+		<Row Retain="不要"	Name="城市中格位收获和移除地貌的产出+100%"													GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_MANAGER_GROUNDBREAKER"/>
+		<Row Retain="不要"	Name="城市的增长+20%以此处为终点的贸易路线属于玩家为起源城市+2食物"						GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_MANAGER_SURPLUS_LOGISTICS"/>
+		<Row Retain="不要"	Name="在城市中修建工业区建筑时+20%生产力城市生产开拓者不消耗人口"							GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION"/>
+		<Row Retain="不要"	Name="城市中每处战略资源每回合+1生产力"													GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_MANAGER_INDUSTRIALIST"/>
+		<Row Retain="不要"	Name="城市无需战略资源即可生产依赖战略资源的单位"											GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER"/>
+		<Row Retain="不要"	Name="此城市可从附近任意数量的工业区获得生产力,而不仅是首个建立的工业区"					GovernorPromotionType="GOVERNOR_PROMOTION_RESOURCE_MANAGER_VERTICAL_INTEGRATION"/>
+		<Row Retain="不要"	Name="城市中生产的所有建造者+1建造次数"													GovernorPromotionType="GOVERNOR_PROMOTION_BUILDER_GUILDMASTER"/>
+		<Row Retain="不要"	Name="建造市中心和市政广场建筑时+30%生产力"												GovernorPromotionType="GOVERNOR_PROMOTION_INFRASTRUCTURE"/>
+		<Row Retain="不要"	Name="渔场特色改良设施,可建造在城市中的海岸格位上产出1点食物如与海洋资源相邻,则+1食物"	GovernorPromotionType="GOVERNOR_PROMOTION_AQUACULTURE"/>
+		<Row Retain="不要"	Name="在城市中修建区域时+30%生产力"															GovernorPromotionType="GOVERNOR_PROMOTION_ZONING_COMMISSIONER"/>
+		<Row Retain="不要"	Name="在城市中修建娱乐设施和水上乐园建筑时+30%生产力"										GovernorPromotionType="GOVERNOR_PROMOTION_ARCHITECT"/>
+		<Row Retain="不要"	Name="可在城市中修建特色改良设施“市立公园”产出2点魅力和1点文化值如与水域相邻,则+1宜居度"	GovernorPromotionType="GOVERNOR_PROMOTION_PARKS_RECREATION"/>
+		<Row Retain="不要"	Name="城市每回合产出的科技值和文化值+20%"													GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN"/>
+		<Row Retain="不要"	Name="在城市中修建剧院广场建筑时+20%生产力"												GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR"/>
+		<Row Retain="不要"	Name="在城市中修建学院建筑时+20%生产力"													GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER"/>
+		<Row Retain="不要"	Name="城市每回合产出的伟人点数+100%"														GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_GRANTS"/>
+		<Row Retain="不要"	Name="在城市中进行核武器项目时+30%生产力"													GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_ARMS_RACE_PROPONENT"/>
+		<Row Retain="不要"	Name="在城市中进行太空计划项目时+30%生产力"												GovernorPromotionType="GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE"/>
+		<Row Retain="不要"	Name="城市获取新单元格的速度加快"															GovernorPromotionType="GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION"/>
+		<Row Retain="不要"	Name="城市中商业中心和港口的相邻加成加倍"													GovernorPromotionType="GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER"/>
+		<Row Retain="不要"	Name="每条经过此城市的外国贸易路线每回合的金币+3"											GovernorPromotionType="GOVERNOR_PROMOTION_MERCHANT_FOREIGN_EXCHANGE"/>
+		<Row Retain="不要"	Name="城市中每位公民每回合可带来2金币的收入"												GovernorPromotionType="GOVERNOR_PROMOTION_MERCHANT_TAX_COLLECTOR"/>
+		<Row Retain="不要"	Name="城市可使用金币购买区域"																GovernorPromotionType="GOVERNOR_PROMOTION_MERCHANT_CONTRACTOR"/>
+		<Row Retain="不要"	Name="使城市中艺术、音乐和著作巨作提供的旅游业绩加倍"										GovernorPromotionType="GOVERNOR_PROMOTION_MERCHANT_CURATOR"/>
+	</MyGovernorPromotionSetting>	
+
+	<AAMyPromotionSetting>				<!--配置想不要的强化特性-->
+		<Row Retain="不要"	Name="在树林和雨林地形有更快的移动力."									UnitPromotionType="PROMOTION_RANGER"/>
+		<Row Retain="不要"	Name="在丘陵地区有更快的移动力."										UnitPromotionType="PROMOTION_ALPINE"/>
+		<Row Retain="不要"	Name="视野能穿过森林和丛林."											UnitPromotionType="PROMOTION_SENTRY"/>
+		<Row Retain="不要"	Name="攻击后可移动."													UnitPromotionType="PROMOTION_GUERRILLA"/>
+		<Row Retain="不要"	Name="+1视野范围."														UnitPromotionType="PROMOTION_SPYGLASS"/>
+		<Row Retain="不要"	Name="在所有情况下+20战斗力."											UnitPromotionType="PROMOTION_AMBUSH"/>
+		<Row Retain="不要"	Name="只有相邻敌军单位才能发现该单位."									UnitPromotionType="PROMOTION_CAMOUFLAGE"/>
+		<Row Retain="不要"	Name="与近战和远程单位战斗时+7战斗力."									UnitPromotionType="PROMOTION_BATTLECRY"/>
+		<Row Retain="不要"	Name="防御远程攻击时+10战斗力."											UnitPromotionType="PROMOTION_TORTOISE"/>
+		<Row Retain="不要"	Name="可攀登悬崖城墙."													UnitPromotionType="PROMOTION_COMMANDO"/>
+		<Row Retain="不要"	Name="从海洋或河流进行攻击时,免除战斗力和移动力减益."					UnitPromotionType="PROMOTION_AMPHIBIOUS"/>
+		<Row Retain="不要"	Name="与抗骑兵单位战斗时+7战斗力."										UnitPromotionType="PROMOTION_ZWEIHANDER"/>
+		<Row Retain="不要"	Name="当在区域内攻击时+10战斗力."										UnitPromotionType="PROMOTION_URBAN_WARFARE"/>
+		<Row Retain="不要"	Name="如果移动力允许,每回合+1额外攻击.可在攻击后移动."					UnitPromotionType="PROMOTION_ELITE_GUARD"/>
+		<Row Retain="不要"	Name="与陆地单位战斗时+5远程攻击力."									UnitPromotionType="PROMOTION_VOLLEY"/>
+		<Row Retain="不要"	Name="占领一个区域或堡垒时+10战斗力."									UnitPromotionType="PROMOTION_GARRISON"/>
+		<Row Retain="不要"	Name="与陆地和海军单位战斗时+7远程攻击力."								UnitPromotionType="PROMOTION_ARROW_STORM"/>
+		<Row Retain="不要"	Name="攻击区域防御时+7远程攻击力."										UnitPromotionType="PROMOTION_INCENDIARIES"/>
+		<Row Retain="不要"	Name="学会区域控制."													UnitPromotionType="PROMOTION_SUPPRESSION"/>
+		<Row Retain="不要"	Name="防御城市攻击时+10战斗力."											UnitPromotionType="PROMOTION_EMPLACEMENT"/>
+		<Row Retain="不要"	Name="如果单位没有移动,每回合+1额外攻击."								UnitPromotionType="PROMOTION_EXPERT_MARKSMAN"/>
+		<Row Retain="不要"	Name="与陆地单位战斗时+7战斗力."										UnitPromotionType="PROMOTION_GRAPE_SHOT"/>
+		<Row Retain="不要"	Name="防御时+7战斗力."													UnitPromotionType="PROMOTION_CREW_WEAPONS"/>
+		<Row Retain="不要"	Name="与陆地单位战斗时+10战斗力."										UnitPromotionType="PROMOTION_SHRAPNEL"/>
+		<Row Retain="不要"	Name="攻击区域防御时+10战斗力."											UnitPromotionType="PROMOTION_SHELLS"/>
+		<Row Retain="不要"	Name="与海军单位战斗时+10战斗力."										UnitPromotionType="PROMOTION_ADVANCED_RANGEFINDING"/>
+		<Row Retain="不要"	Name="移动后可攻击."													UnitPromotionType="PROMOTION_EXPERT_CREW"/>
+		<Row Retain="不要"	Name="+1射程."															UnitPromotionType="PROMOTION_FORWARD_OBSERVERS"/>
+		<Row Retain="不要"	Name="与骑兵单位战斗时+5战斗力."										UnitPromotionType="PROMOTION_ECHELON"/>
+		<Row Retain="不要"	Name="与近战单位战斗时+10战斗力."										UnitPromotionType="PROMOTION_THRUST"/>
+		<Row Retain="不要"	Name="双倍支援加成."													UnitPromotionType="PROMOTION_SQUARE"/>
+		<Row Retain="不要"	Name="防御近战系单位攻击时+10战斗力."									UnitPromotionType="PROMOTION_SCHILTRON"/>
+		<Row Retain="不要"	Name="+1移动力."														UnitPromotionType="PROMOTION_REDEPLOY"/>
+		<Row Retain="不要"	Name="在树林、丛林、丘陵或沼泽防御时+7战斗力."							UnitPromotionType="PROMOTION_CHOKE_POINTS"/>
+		<Row Retain="不要"	Name="与骑兵战斗时,如有与不同类型战斗单位相邻+10战斗力."				UnitPromotionType="PROMOTION_HOLD_THE_LINE"/>
+		<Row Retain="不要"	Name="与抗骑兵单位战斗时+5战斗力."										UnitPromotionType="PROMOTION_CAPARISON"/>
+		<Row Retain="不要"	Name="攻击远程和攻城单位时+5战斗力."									UnitPromotionType="PROMOTION_COURSERS"/>
+		<Row Retain="不要"	Name="掠夺只消耗1个移动力."												UnitPromotionType="PROMOTION_DEPREDATION"/>
+		<Row Retain="不要"	Name="两倍夹击加成."													UnitPromotionType="PROMOTION_DOUBLE_ENVELOPMENT"/>
+		<Row Retain="不要"	Name="与攻城单位战斗时+7战斗力."										UnitPromotionType="PROMOTION_SPIKING_THE_GUNS"/>
+		<Row Retain="不要"	Name="+1移动力."														UnitPromotionType="PROMOTION_PURSUIT"/>
+		<Row Retain="不要"	Name="编队单位全部获得陪护单位移动力."									UnitPromotionType="PROMOTION_ESCORT_MOBILITY"/>
+		<Row Retain="不要"	Name="与驻扎的单位战斗时+10战斗力."										UnitPromotionType="PROMOTION_CHARGE"/>
+		<Row Retain="不要"	Name="防御远程攻击时+7战斗力."											UnitPromotionType="PROMOTION_BARDING"/>
+		<Row Retain="不要"	Name="在区域内战斗时,+7战斗力."											UnitPromotionType="PROMOTION_MARAUDING"/>
+		<Row Retain="不要"	Name="与受损单位战斗时+5战斗力."										UnitPromotionType="PROMOTION_ROUT"/>
+		<Row Retain="不要"	Name="与其他重骑兵单位战斗时+7战斗力."									UnitPromotionType="PROMOTION_ARMOR_PIERCING"/>
+		<Row Retain="不要"	Name="防御重骑兵和抗骑兵单位攻击时+7战斗力."							UnitPromotionType="PROMOTION_REACTIVE_ARMOR"/>
+		<Row Retain="不要"	Name="如果移动力允许,每回合+1额外攻击."								UnitPromotionType="PROMOTION_BREAKTHROUGH"/>
+		<Row Retain="不要"	Name="与战斗机系单位战斗时+7战斗力."									UnitPromotionType="PROMOTION_DOGFIGHTING"/>
+		<Row Retain="不要"	Name="防御防空攻击时+7战斗力."											UnitPromotionType="PROMOTION_COCKPIT_ARMOR"/>
+		<Row Retain="不要"	Name="与轰炸机单位战斗时+7战斗力."										UnitPromotionType="PROMOTION_INTERCEPTOR"/>
+		<Row Retain="不要"	Name="与非骑兵单位战斗时+17战斗力."										UnitPromotionType="PROMOTION_STRAFE"/>
+		<Row Retain="不要"	Name="巡逻或部署时可恢复."												UnitPromotionType="PROMOTION_GROUND_CREWS"/>
+		<Row Retain="不要"	Name="与骑兵单位战斗时+17战斗力."										UnitPromotionType="PROMOTION_TANK_BUSTER"/>
+		<Row Retain="不要"	Name="+2射程."															UnitPromotionType="PROMOTION_DROP_TANKS"/>
+		<Row Retain="不要"	Name="防御战斗机系单位时+7战斗力."										UnitPromotionType="PROMOTION_BOX_FORMATION"/>
+		<Row Retain="不要"	Name="防御防空攻击时+7战斗力."											UnitPromotionType="PROMOTION_EVASIVE_MANEUVERS"/>
+		<Row Retain="不要"	Name="与海军单位战斗时+17战斗力."										UnitPromotionType="PROMOTION_TORPEDO_BOMBER"/>
+		<Row Retain="不要"	Name="与陆地单位战斗时+12战斗力."										UnitPromotionType="PROMOTION_CLOSE_AIR_SUPPORT"/>
+		<Row Retain="不要"	Name="攻击后可恢复."													UnitPromotionType="PROMOTION_TACTICAL_MAINTENANCE"/>
+		<Row Retain="不要"	Name="+2射程."															UnitPromotionType="PROMOTION_LONG_RANGE"/>
+		<Row Retain="不要"	Name="空中掠夺没有最低生命值不要求."										UnitPromotionType="PROMOTION_SUPERFORTRESS"/>
+		<Row Retain="不要"	Name="与海军单位战斗时+7战斗力."										UnitPromotionType="PROMOTION_EMBOLON"/>
+		<Row Retain="不要"	Name="+1移动力."														UnitPromotionType="PROMOTION_HELMSMAN"/>
+		<Row Retain="不要"	Name="防御远程攻击时+10战斗力."											UnitPromotionType="PROMOTION_REINFORCED_HULL"/>
+		<Row Retain="不要"	Name="+1视野范围."														UnitPromotionType="PROMOTION_RUTTER"/>
+		<Row Retain="不要"	Name="可在友军领土之外恢复."											UnitPromotionType="PROMOTION_AUXILIARY_SHIPS"/>
+		<Row Retain="不要"	Name="位于一个编队内时+10战斗力."										UnitPromotionType="PROMOTION_CONVOY"/>
+		<Row Retain="不要"	Name="与海军袭击者单位战斗时+14战斗力."								UnitPromotionType="PROMOTION_CREEPING_ATTACK"/>
+		<Row Retain="不要"	Name="与海军单位战斗时+7战斗力."										UnitPromotionType="PROMOTION_LINE_OF_BATTLE"/>
+		<Row Retain="不要"	Name="攻击区域防御时+7战斗力."											UnitPromotionType="PROMOTION_BOMBARDMENT"/>
+		<Row Retain="不要"	Name="与陆地单位战斗时+7战斗力."										UnitPromotionType="PROMOTION_PREPARATORY_FIRE"/>
+		<Row Retain="不要"	Name="攻击区域防御时+10战斗力."											UnitPromotionType="PROMOTION_ROLLING_BARRAGE"/>
+		<Row Retain="不要"	Name="在友军领土之外恢复."												UnitPromotionType="PROMOTION_SUPPLY_FLEET"/>
+		<Row Retain="不要"	Name="防御空中攻击时+7战斗力."											UnitPromotionType="PROMOTION_PROXIMITY_FUSES"/>
+		<Row Retain="不要"	Name="+1射程."															UnitPromotionType="PROMOTION_COINCIDENCE_RANGEFINDING"/>
+		<Row Retain="不要"	Name="+1视野范围."														UnitPromotionType="PROMOTION_SCOUT_PLANES"/>
+		<Row Retain="不要"	Name="+1移动力."														UnitPromotionType="PROMOTION_ADVANCED_ENGINES"/>
+		<Row Retain="不要"	Name="在攻击后可恢复."													UnitPromotionType="PROMOTION_DECK_CREWS"/>
+		<Row Retain="不要"	Name="在友军领土之外恢复."												UnitPromotionType="PROMOTION_SUPER_CARRIER"/>
+		<Row Retain="不要"	Name="从海岸袭击+50金币."												UnitPromotionType="PROMOTION_LOOT"/>
+		<Row Retain="不要"	Name="从海军胜利中获得金币."											UnitPromotionType="PROMOTION_BOARDING"/>
+		<Row Retain="不要"	Name="+1移动力."														UnitPromotionType="PROMOTION_SWIFT_KEEL"/>
+		<Row Retain="不要"	Name="与海军单位战斗时+10战斗力."										UnitPromotionType="PROMOTION_HOMING_TORPEDOES"/>
+		<Row Retain="不要"	Name="+1视野范围."														UnitPromotionType="PROMOTION_OBSERVATION"/>
+		<Row Retain="不要"	Name="攻击后可移动."													UnitPromotionType="PROMOTION_SILENT_RUNNING"/>
+		<Row Retain="不要"	Name="每回合+1额外攻击."												UnitPromotionType="PROMOTION_WOLFPACK"/>
+		<Row Retain="不要"	Name="两倍夹击加成."													UnitPromotionType="PROMOTION_MONK_SHADOW_STRIKE"/>
+		<Row Retain="不要"	Name="只有相邻的敌方单位才能发现该单位."								UnitPromotionType="PROMOTION_MONK_TWILIGHT_VEIL"/>
+		<Row Retain="不要"	Name="在所有情况下+10战斗力."											UnitPromotionType="PROMOTION_MONK_EXPLODING_PALMS"/>
+		<Row Retain="不要"	Name="此单位会在击败敌方单位后将其宗教传播到附近的城市中."				UnitPromotionType="PROMOTION_MONK_DISCIPLES"/>
+		<Row Retain="不要"	Name="如果移动力允许,每回合+1额外攻击."								UnitPromotionType="PROMOTION_MONK_SWEEPING_WIND"/>
+		<Row Retain="不要"	Name="+1移动力."														UnitPromotionType="PROMOTION_MONK_DANCING_CRANE"/>
+		<Row Retain="不要"	Name="在所有情况下+15战斗力."											UnitPromotionType="PROMOTION_MONK_COBRA_STRIKE"/>
+		<Row Retain="不要"	Name="在海洋或河流上行进时无移动力减益."								UnitPromotionType="PROMOTION_WALK_ON_WATER"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="在树林、雨林、丘陵或沼泽中拥有更高移动力."						UnitPromotionType="PROMOTION_TRAVELER"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="+2移动力."														UnitPromotionType="PROMOTION_PROPAGATOR"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="如果该单位首次使一座城市皈依您的宗教,您将获得75点信仰值."		UnitPromotionType="PROMOTION_INTERPRETER"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="在树林、雨林、丘陵或沼泽地形上防御时,神学战争+7宗教战斗力."		UnitPromotionType="PROMOTION_ALCHEMIST"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="占领区域时,神学战争+10宗教战斗力."								UnitPromotionType="PROMOTION_GARRISON"/>
+		<Row Retain="不要"	Name="在外国领土中时,神学战争+10宗教战斗力."							UnitPromotionType="PROMOTION_PRACTITIONER"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="两倍夹击加成."													UnitPromotionType="PROMOTION_SANGHA"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="回合开始时,附近2个单元格内宗教单位+1移动力."						UnitPromotionType="PROMOTION_GUIDE"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="此单位作用与医疗兵相同,可对附近1个单元格内的单位进行额外治疗."	UnitPromotionType="PROMOTION_TEACHER"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="附近2个单元格内宗教单位的神学战争+10宗教战斗力."					UnitPromotionType="PROMOTION_SAGE"/><!--情景：涅槃之路-->
+		<Row Retain="不要"	Name="治疗次数+1."														UnitPromotionType="PROMOTION_MASTER"/><!--情景：涅槃之路-->
+	</AAMyPromotionSetting>
+
+	<AAMyAbilitiesSetting>				<!--配置想不要的被动特性-->
+		<Row Retain="不要"	Name="迎战轻骑兵和重骑兵单位+14战斗力."																								UnitAbilityType="ABILITY_ANTI_CAVALRY"/>
+		<Row Retain="不要"	Name="如在沙漠、平原、草原或冻土上开始,+1移动力."																						UnitAbilityType="ABILITY_HEAVY_CHARIOT"/>
+		<Row Retain="不要"	Name="森林、丛林、丘陵和沼泽只能获得1个移动力."																						UnitAbilityType="ABILITY_IGNORE_TERRAIN_COST"/>
+		<Row Retain="不要"	Name="穿越河流忽略移动消耗."																											UnitAbilityType="ABILITY_IGNORE_CROSSING_RIVERS_COST"/>
+		<Row Retain="不要"	Name="即使没有开放边界,该单位也可以进入外国领土."																						UnitAbilityType="ABILITY_ARCHAEOLOGIST_ENTER_FOREIGN_LANDS"/>
+		<Row Retain="不要"	Name="即使没有开放边界,该单位也可以进入外国领土."																						UnitAbilityType="ABILITY_RELIGIOUS_ENTER_FOREIGN_LANDS"/>
+		<Row Retain="不要"	Name="森林、丛林、丘陵和沼泽只需消耗一点移动力.通过传教热忱信仰解锁."																	UnitAbilityType="ABILITY_RELIGIOUS_IGNORE_TERRAIN_COST"/>
+		<Row Retain="不要"	Name="未受敌人控制区影响."																												UnitAbilityType="ABILITY_IGNORE_ZOC"/>
+		<Row Retain="不要"	Name="如在沙漠、平原、草原或冻土上开始,+2移动力."																						UnitAbilityType="ABILITY_LIGHT_CHARIOT"/>
+		<Row Retain="不要"	Name="当接近敌人城市时,近战单位对城市城墙造成全面损害."																				UnitAbilityType="ABILITY_ENABLE_WALL_ATTACK"/>
+		<Row Retain="不要"	Name="靠近敌方城市时,近战单位能绕开城墙,直接攻击城市."																					UnitAbilityType="ABILITY_BYPASS_WALLS"/>
+		<Row Retain="不要"	Name="迎战抗骑兵单位+10战斗力."																											UnitAbilityType="ABILITY_ANTI_SPEAR"/>
+		<Row Retain="不要"	Name="附近远程攻城单位+1范围."																											UnitAbilityType="ABILITY_GRANT_RANGE_BONUS"/>
+		<Row Retain="不要"	Name="没被地形阻碍的视野范围."																											UnitAbilityType="ABILITY_UNOBSTRUCTED_VIEW"/>
+		<Row Retain="不要"	Name="他们帝国神学战争中的显著优势."																									UnitAbilityType="ABILITY_FRIENDLY_TERRITORY_RELIGIOUS"/>
+		<Row Retain="不要"	Name="只能在他们帝国以内的城市传播宗教."																								UnitAbilityType="ABILITY_NO_FOREIGN_SPREAD"/>
+		<Row Retain="不要"	Name="寡头政体+4战斗力."																												UnitAbilityType="ABILITY_OLIGARCHY_MELEE_BUFF"/>
+		<Row Retain="不要"	Name="神权政体的+5宗教战斗力."																											UnitAbilityType="ABILITY_THEOCRACY_RELIGIOUS_BUFF"/>
+		<Row Retain="不要"	Name="宗教教派政策的+5宗教战斗力."																										UnitAbilityType="ABILITY_RELIGIOUS_ORDERS_BUFF"/>
+		<Row Retain="不要"	Name="在法西斯主义政体下进行攻击时,+4战斗力."																							UnitAbilityType="ABILITY_FASCISM_ATTACK_BUFF"/>
+		<Row Retain="不要"	Name="在共产主义政体下,防守时+6战斗力."																								UnitAbilityType="ABILITY_COMMUNISM_DEFENSE_BUFF"/>
+		<Row Retain="不要"	Name="为1个单元格内的玩家单位回复20生命值."																							UnitAbilityType="ABILITY_MEDIC_HEAL"/>
+		<Row Retain="不要"	Name="对一个格位以外的单位保持隐藏."																									UnitAbilityType="ABILITY_STEALTH"/>
+		<Row Retain="不要"	Name="当该单位位于邻近单元格时,在地图上显示隐形单位."																					UnitAbilityType="ABILITY_SEE_HIDDEN"/>
+		<Row Retain="不要"	Name="哈拉尔德·哈德拉达的海军近战单位能够掠夺建筑物和改良设施,以及在沿海地区获得平民单位."											UnitAbilityType="ABILITY_COASTAL_RAID"/>
+		<Row Retain="不要"	Name="哈拉尔德·哈德拉达的海军近战单位能够掠夺建筑物和改良设施,以及在沿海地区获得平民单位."											UnitAbilityType="ABILITY_MELEE_COASTAL_RAID"/>
+		<Row Retain="不要"	Name="即使支援单位正在同战斗单位形成编队,也可以对其进行直接攻击."																		UnitAbilityType="ABILITY_BYPASS_COMBAT_UNIT"/>
+		<Row Retain="不要"	Name="可在中立地区恢复."																												UnitAbilityType="ABILITY_HEAL_NEUTRAL_TERRITORY"/>
+		<Row Retain="不要"	Name="在水域单元格上,贸易路线无法被敌方单位掠夺.当里斯本城邦是宗主国时,可以获得贸易路线."												UnitAbilityType="ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA"/>
+		<Row Retain="不要"	Name="进攻时+7战斗力,防御时-7战斗力."																									UnitAbilityType="ABILITY_BERSERKER_RAGE"/>
+		<Row Retain="不要"	Name="如果该单位在敌方领土上启动,+2移动力."																							UnitAbilityType="ABILITY_BERSERKER_MOVEMENT"/>
+		<Row Retain="不要"	Name="当位于沿海水域时,+1移动力."																										UnitAbilityType="ABILITY_LONGSHIP_MOVEMENT"/>
+		<Row Retain="不要"	Name="可以获得战败敌人的海军舰艇."																										UnitAbilityType="ABILITY_PRIZE_SHIPS"/>
+		<Row Retain="不要"	Name="可以俘虏战败敌人的文明作战单位,并把他们转换成建造者."																			UnitAbilityType="ABILITY_CAPTIVE_WORKERS"/>
+		<Row Retain="不要"	Name="宗主国是普雷斯拉夫城邦时,丘陵上的轻骑兵和重骑兵+5战斗力."																		UnitAbilityType="ABILITY_BALKAN_CAVALRY"/>
+		<Row Retain="不要"	Name="移至珠穆朗玛峰自然奇观附近后,传教士、审判官、使徒可以更快越过丘陵."																UnitAbilityType="ABILITY_ALTITUDE_TRAINING"/>
+		<Row Retain="不要"	Name="攻击后可移动.您的领地或与您领地相邻区域+5战斗力."																				UnitAbilityType="ABILITY_COSSACK"/>
+		<Row Retain="不要"	Name="在不是您首都的大陆上作战时+10战斗力.无下船消耗."																					UnitAbilityType="ABILITY_REDCOAT"/>
+		<Row Retain="不要"	Name="相邻敌人单位-5战斗力."																											UnitAbilityType="ABILITY_VARU"/>
+		<Row Retain="不要"	Name="抵御远程单位时+10战斗力,视野能穿过地貌,可以在没有受到行动减益的情况下穿过树林和雨林."											UnitAbilityType="ABILITY_NAGAO"/>
+		<Row Retain="不要"	Name="与宗教单位处于同一格位时+10战斗力.如果该单位占领城市、或在城市被占领时处于相邻的单元格,该城市将自动皈依该单位所属玩家的宗教."	UnitAbilityType="ABILITY_CONQUISTADOR"/>
+		<Row Retain="不要"	Name="首都位于相同大陆时,+10战斗力.每次杀戮,+10大将军点数."																			UnitAbilityType="ABILITY_GARDE"/>
+		<Row Retain="不要"	Name="如果附近至少有一名重装步兵,+10战斗力."																							UnitAbilityType="ABILITY_HOPLITE"/>
+		<Row Retain="不要"	Name="海洋作战+10战斗力."																												UnitAbilityType="ABILITY_UBOAT"/>
+		<Row Retain="不要"	Name="击败敌方单位获得的文化值数量与该单位在您首都大陆作战时的50%基本战斗力相等.在丘陵作战时,+10战斗力."								UnitAbilityType="ABILITY_ROUGH_RIDER"/>
+		<Row Retain="不要"	Name="对阵战斗机时,获得战斗加成,拥有广阔攻击范围,并且能从战斗中获得更多经验值."														UnitAbilityType="ABILITY_MUSTANG"/>
+		<Row Retain="不要"	Name="甚至在移动或战斗后,该单位在每回合都能治愈."																						UnitAbilityType="ABILITY_MAMLUK"/>
+		<Row Retain="不要"	Name="在受伤害时,该单位不会受到战斗惩罚."																								UnitAbilityType="ABILITY_SAMURAI"/>
+		<Row Retain="不要"	Name="在海岸单元格上作战时+10战斗力.在中立或外国领土上作战时+5战斗力."																	UnitAbilityType="ABILITY_DIGGER"/>
+		<Row Retain="不要"	Name="海军统帅的战斗加成+5."																											UnitAbilityType="ABILITY_GREAT_ADMIRAL_MOVEMENT"/>
+		<Row Retain="不要"	Name="海军统帅的战斗加成+5."																											UnitAbilityType="ABILITY_GREAT_ADMIRAL_STRENGTH"/>
+		<Row Retain="不要"	Name="大将军的战斗加成+5"																												UnitAbilityType="ABILITY_GREAT_GENERAL_MOVEMENT"/>
+		<Row Retain="不要"	Name="大将军的战斗加成+5"																												UnitAbilityType="ABILITY_GREAT_GENERAL_STRENGTH"/>
+		<Row Retain="不要"	Name="所有陆地战斗单位在丘陵地形战斗时战斗力+3；移动至自然奇观马特洪峰相邻的单元格后,在丘陵地形的移动力增加."						UnitAbilityType="ABILITY_ALPINE_TRAINING"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="移动力+1"																															UnitAbilityType="ABILITY_ORDU_INCREASED_MOVEMENT"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="此单位的贸易路线无法被敌方单位劫掠.是经济黄金时代的一部分."																		UnitAbilityType="ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="为所有近战单位+5战斗力."																											UnitAbilityType="ABILITY_TWILIGHT_VALOR_ATTACK_BONUS"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="位于友方领土中时+15宗教战斗力."																									UnitAbilityType="ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="寡头政体+4战斗力."																												UnitAbilityType="ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="神权政体的+5宗教战斗力."																											UnitAbilityType="ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="在法西斯主义政体下进行攻击时,+4战斗力."																							UnitAbilityType="ABILITY_FASCISM_LEGACY_ATTACK_BUFF"/><!--资料片：迭起兴衰-->
+		<Row Retain="不要"	Name="如该单位在神学战争中丧生,将出现1个遗物."																							UnitAbilityType="ABILITY_MARTYR"/><!--DLC：高棉与印尼文明包-->
+		<Row Retain="不要"	Name="巨人之矛:+5战斗力"																												UnitAbilityType="ABILITY_SPEAR_OF_FIONN"/><!--DLC：维京人包-->
+	</AAMyAbilitiesSetting>
+</GameInfo>

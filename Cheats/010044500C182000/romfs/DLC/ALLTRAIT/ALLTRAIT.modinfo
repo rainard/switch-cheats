@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="244176C0-13B6-AF49-8941-DBBE13B6AB09" version="1.0">
+    <Properties>
+        <Name>功能定制工具</Name>
+        <Teaser>
+			全文明特性，全领袖特性，全宗主国特性。[NEWLINE]
+			提供全部特性兵种、区域、改良建筑。[NEWLINE]
+			提供全部总督、时代特性。[NEWLINE]
+			提供全部兵种特性。[NEWLINE]
+			提供大量定制效果。[NEWLINE]
+		</Teaser>
+        <Description>全文明特性，全领袖特性，全宗主国特性。[NEWLINE]提供全部特性兵种、区域、改良建筑。[NEWLINE]提供全部总督、时代特性。[NEWLINE]提供全部兵种特性。</Description>
+        <Authors>Slan</Authors>
+        <ShowInBrowser>AlwaysShow</ShowInBrowser>
+        <EnabledByDefault>1</EnabledByDefault>
+        <EnabledAtStartup>1</EnabledAtStartup>
+    </Properties>
+	<InGameActions>
+		<GameplayScripts id="MY_GAMEPLAY_DATA">
+			<File>Data/StartScript.lua</File>
+        </GameplayScripts>
+		<UpdateIcons id="MY_GAMEPLAY_DATA">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<File>UI/Icons/Myicon.sql</File>
+		</UpdateIcons>
+        <UpdateDatabase id="MY_GAMEPLAY_DATA">
+			<Properties>
+				<LoadOrder>200</LoadOrder>
+			</Properties>
+			<File Priority="5">Data/MySqlSupport.sql</File>
+			<File Priority="4">Set.xml</File>
+			<File Priority="3">Data/MySqlSupportLoadSet.sql</File>
+			<File Priority="2">Data/MyModifiers.sql</File>
+			<File Priority="1">Data/MyTraits.sql</File>
+			<File>Data/MyModify.sql</File>
+			<File>Integrations/KingOfTheGods.sql</File>
+			<File>Integrations/Warmongering.sql</File>
+			<File>Integrations/ResourcesCanCollected.sql</File>
+			<File>Integrations/WonderPositionRestriction.sql</File>
+        </UpdateDatabase>
+		<ReplaceUIScript id="MY_GAMEPLAY_DATA">
+			<Properties>
+				<LuaContext>TopPanel</LuaContext>
+				<LuaReplace>UI/MyTopPanel.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+	</InGameActions>
+    <Files>
+		<File>Data/StartScript.lua</File>
+		<File>UI/Icons/Myicon.sql</File>
+		<File>Data/MySqlSupport.sql</File>
+		<File>Set.xml</File>
+		<File>Data/MySqlSupportLoadSet.sql</File>
+		<File>Data/MyModifiers.sql</File>
+		<File>Data/MyTraits.sql</File>
+		<File>Data/MyModify.sql</File>
+		<File>Integrations/KingOfTheGods.sql</File>
+		<File>Integrations/Warmongering.sql</File>
+		<File>Integrations/ResourcesCanCollected.sql</File>
+		<File>Integrations/WonderPositionRestriction.sql</File>
+		<File>UI/MyTopPanel.lua</File>
+    </Files>
+</Mod>

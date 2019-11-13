@@ -1,0 +1,2 @@
+---------------------------------------添加所有的资源可采集(非手动)------------------------------------------------------------------------------
+INSERT OR IGNORE INTO Resource_Harvests (ResourceType, YieldType, Amount) SELECT ResourceType, YieldType, YieldChange * 25 FROM Resource_YieldChanges WHERE (SELECT Retain FROM MySpecialSetting WHERE Name = '所有的资源可采集') = "要";
